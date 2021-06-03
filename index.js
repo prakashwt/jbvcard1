@@ -4,11 +4,10 @@ const fs = require("fs");
 
 const app = express();
 const path = require("path");
-let port = 3000;
 
 app.use(express.static("./frontend/public"));
 
-app.get("/", (req, res) => {
+app.get("/*", (req, res) => {
   res.sendFile(path.join(__dirname, "./frontend/public/index.html"));
 });
 
@@ -20,6 +19,8 @@ if (process.env.NODE_ENV === "production") {
       : res.redirect("https://" + req.hostname + req.url);
   });
 }
+
+const port = process.env.PORT || 4000;
 
 app
   .listen(port, () => {
