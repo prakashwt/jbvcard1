@@ -57,13 +57,13 @@
           v-html="require(`~/assets/icons/logo.svg?include`)"
           title="EnBizCard - An Open-Source Digital Business Card Generator"
         ></div>
-        <a
+        <!-- <a
           class="font-extrabold tracking-wide leading-none flex-shrink-0 p-3 border-2 text-white border-gray-700 rounded hover:bg-gray-700 focus:bg-gray-700 transition-colors duration-200"
           href="https://www.vishnuraghav.com/donate"
           target="_blank"
           rel="noreferrer"
           >Donate</a
-        >
+        > -->
       </div>
       <h1
         class="text-3xl md:text-5xl font-extrabold mt-24 md:mt-48 md:leading-tight"
@@ -170,7 +170,7 @@
               rows="4"
             ></textarea>
           </div>
-          <div class="stepC relative mt-6">
+          <!-- <div class="stepC relative mt-6">
             <label for="pgp-public-key" class="flex justify-between ml-4"
               >Public key<span
                 v-if="genInfo.key"
@@ -187,8 +187,8 @@
               spellcheck="false"
               placeholder="Paste PGP PUBLIC KEY BLOCK here"
             ></textarea>
-          </div>
-          <div class="stepC relative mt-6">
+          </div> -->
+          <!-- <div class="stepC relative mt-6">
             <label for="pgp-fingerprint" class="flex justify-between ml-4"
               >Public key fingerprint<span
                 v-if="genInfo.fp"
@@ -207,7 +207,7 @@
               class="mt-2 px-4 w-full h-12 bg-black placeholder-gray-600 rounded border border-transparent transition-colors duration-200 focus:outline-none focus:border-gray-600 hover:border-gray-600"
               placeholder="Paste 40 character fingerprint here"
             />
-          </div>
+          </div> -->
         </div>
         <div id="step-3" class="mt-16">
           <h2 class="font-extrabold text-2xl">Primary actions</h2>
@@ -616,16 +616,16 @@ export default {
           {
             name: 'call',
             href: 'tel:',
-            placeholder: '+91 XXXXX XXXXX',
+            placeholder: '+1 XXX XXX XXXX',
             value: null,
             label: 'Phone number',
           },
           {
-            name: 'call',
-            href: 'tel:',
-            placeholder: '+91 XXXXX XXXXX',
+            name: 'sms',
+            href: 'SMS:',
+            placeholder: '+1 XXX XXX XXXX',
             value: null,
-            label: 'Phone number',
+            label: 'Phone number to send the SMS',
           },
           {
             name: 'whatsapp',
