@@ -1,6 +1,11 @@
 <template>
   <div
-    class="overflow-y-scroll max-hd border-t-0 border-4 border-black bg-gray-900"
+    class="
+      overflow-y-scroll
+      max-hd
+      border-t-0 border-4 border-black
+      bg-gray-900
+    "
   >
     <div id="Theme1">
       <html

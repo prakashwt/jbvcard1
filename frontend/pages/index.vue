@@ -634,6 +634,12 @@ export default {
             label: 'WhatsApp profile URL',
           },
           {
+            name: 'messenger',
+            placeholder: 'https://m.me/username',
+            value: null,
+            label: 'Facebook Messanger Link',
+          },
+          {
             name: 'telegram',
             placeholder: 'https://t.me/username',
             value: null,
@@ -652,6 +658,18 @@ export default {
             value: null,
             label: 'Website URL',
           },
+          {
+            name: 'googlechat',
+            placeholder: 'https://example.com',
+            value: null,
+            label: 'Google Chat URL',
+          },
+          // {
+          //   name: 'calendar',
+          //   placeholder: 'https://example.com',
+          //   value: null,
+          //   label: 'Calender',
+          // },
           {
             name: 'store',
             placeholder: 'https://example.com/storeID',
