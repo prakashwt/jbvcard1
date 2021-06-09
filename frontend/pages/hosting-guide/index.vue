@@ -229,7 +229,7 @@
               href="https://t.me/SMART vCARD"
               target="_blank"
               rel="noopener noreferrer"
-              >join the telegram group</a
+              >Contact Support</a
             >
             and ask it.
           </p>

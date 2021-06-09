@@ -13,7 +13,7 @@
       <p class="font-extrabold text-xl mt-2 leading-tight">SMART vCARD</p>
     </div>
     <p class="mt-6 text-center text-gray-400">
-      Made with ❤️ by
+      Another Software Solution by
       <a
         class="
           underline
@@ -24,10 +24,10 @@
           transition-colors
           duration-200
         "
-        href="https://www.vishnuraghav.com/"
+        href="https://getbaer.com/"
         target="_blank"
         rel="noopener noreferrer"
-        >Vishnu&nbsp;Raghav</a
+        >GET BAER</a
       >
     </p>
     <p class="mt-1 mb-8 text-center text-xs text-gray-400">
@@ -44,9 +44,24 @@
         href="#"
         target="_blank"
         rel="noopener noreferrer"
-        >View&nbsp;Source</a
+        >Privacy&nbsp;Policy
+      </a>
+      |
+      <a
+        class="
+          underline
+          text-green-600
+          font-extrabold
+          hover:text-green-500
+          focus:text-green-500
+          transition-colors
+          duration-200
+        "
+        href="#"
+        target="_blank"
+        rel="noopener noreferrer"
+        >Terms & Conditions</a
       >
-      | AGPLv3 License
     </p>
   </footer>
 </template>

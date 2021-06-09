@@ -49,7 +49,7 @@ Your feedback and suggestions are very important. If you have an idea to improve
 You can,
 
 - [Create an issue here](https://github.com/vishnuraghavb/SMART vCARD/issues)
-- [Join the Telegram group](http://t.me/SMART vCARD) (quicker replies and best for discussion)
+- [Contact Support](http://t.me/SMART vCARD) (quicker replies and best for discussion)
 - Contact me at apps@vishnuraghav.com
 
 ## Assets

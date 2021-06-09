@@ -13,7 +13,22 @@
       <button
         ref="downloadPackage"
         @click="downloadPackage"
-        class="inline-block bg-gray-700 leading-none text-2xl tracking-wide border-2 border-transparent font-extrabold p-6 rounded mt-12 select-none transition-colors duration-200 focus:outline-none"
+        class="
+          inline-block
+          bg-gray-700
+          leading-none
+          text-2xl
+          tracking-wide
+          border-2 border-transparent
+          font-extrabold
+          p-6
+          rounded
+          mt-12
+          select-none
+          transition-colors
+          duration-200
+          focus:outline-none
+        "
         :title="
           downloadChecked
             ? ''
@@ -31,20 +46,35 @@
         Extract the downloaded ZIP file and follow the
         <NuxtLink
           to="/hosting-guide"
-          class="cursor-pointer underline font-extrabold text-green-600 hover:text-green-500 focus:text-green-500 transition-colors duration-200"
+          class="
+            cursor-pointer
+            underline
+            font-extrabold
+            text-green-600
+            hover:text-green-500
+            focus:text-green-500
+            transition-colors
+            duration-200
+          "
           >Hosting&nbsp;Guide</NuxtLink
         >
         to get your digital business card online.
         <br /><br />
-        If you find this service valuable to you or your business, please
-        consider donating.
-        <br /><a
-          class="inline-block font-extrabold tracking-wide leading-none flex-shrink-0 p-3 text-white bg-gray-700 rounded hover:bg-gray-600 focus:bg-gray-600 transition-colors duration-200 mt-4"
-          href="https://www.vishnuraghav.com/donate/"
-          rel="noreferrer"
-          target="_blank"
-          >Donate</a
+        Optionally host your vCard Zip folder on our
+        <span
+          class="
+            cursor-pointer
+            underline
+            font-extrabold
+            text-green-600
+            hover:text-green-500
+            focus:text-green-500
+            transition-colors
+            duration-200
+          "
+          >short url</span
         >
+        (i.e vcard.fyi/yourname)
       </p>
     </div>
   </div>

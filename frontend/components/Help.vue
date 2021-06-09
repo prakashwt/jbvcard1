@@ -28,7 +28,7 @@
           "
           rel="noreferrer"
         >
-          Join the Telegram group
+          Contact Support
         </a>
       </div>
     </div>

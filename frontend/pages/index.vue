@@ -961,7 +961,7 @@ export default {
             label: 'Website URL',
           },
           {
-            name: 'googlechat',
+            name: 'google',
             placeholder: 'https://example.com',
             value: null,
             label: 'Google Chat URL',
