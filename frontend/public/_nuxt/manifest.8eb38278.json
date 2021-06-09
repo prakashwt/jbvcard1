@@ -1,7 +1,7 @@
 {
-  "name": "EnBizCard - An Open-Source Digital Business Card Generator",
-  "short_name": "EnBizCard",
-  "description": "<p align=\"center\"><a href=\"https://enbizcard.vercel.app/\"><img src=\"assets/images/GitHub.png\" width=\"100%\"></a></p>",
+  "name": "SMART vCARD - An Open-Source Digital Business Card Generator",
+  "short_name": "SMART vCARD",
+  "description": "<p align=\"center\"><a href=\"https://smartvcard.com\"><img src=\"assets/images/GitHub.png\" width=\"100%\"></a></p>",
   "icons": [
     {
       "src": "/icon_64.png",

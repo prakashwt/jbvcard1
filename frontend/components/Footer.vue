@@ -10,7 +10,7 @@
         <br />
         Generator
       </p> -->
-      <p class="font-extrabold text-xl mt-2 leading-tight">EnBizCard</p>
+      <p class="font-extrabold text-xl mt-2 leading-tight">SMART vCARD</p>
     </div>
     <p class="mt-6 text-center text-gray-400">
       Made with ❤️ by
@@ -41,7 +41,7 @@
           transition-colors
           duration-200
         "
-        href="https://github.com/vishnuraghavb/EnBizCard"
+        href="#"
         target="_blank"
         rel="noopener noreferrer"
         >View&nbsp;Source</a

@@ -22,9 +22,9 @@
           <meta v-if="!PreviewMode" name="robots" content="noindex, nofollow" />
           <meta
             name="author"
-            content="EnBizCard - An Open-Source Digital Business Card Generator"
+            content="SMART vCARD - An Open-Source Digital Business Card Generator"
           />
-          <meta name="url" content="https://enbizcard.vercel.app/" />
+          <meta name="url" content="https://smartvcard.com" />
           <meta name="designer" content="Vishnu Raghav" />
           <meta
             property="og:title"
@@ -318,10 +318,10 @@
             Created with
             <a
               class="text"
-              href="https://enbizcard.vercel.app/"
+              href="https://smartvcard.com"
               target="_blank"
               rel="noopener noreferrer"
-              >EnBizCard</a
+              >SMART vCARD</a
             >
           </footer>
         </body>

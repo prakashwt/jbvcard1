@@ -6,11 +6,25 @@
           <div
             class="logo w-24"
             v-html="require(`~/assets/icons/logo.svg?include`)"
-            title="EnBizCard - An Open-Source Digital Business Card Generator"
+            title="SMART vCARD - An Open-Source Digital Business Card Generator"
           ></div
         ></NuxtLink>
         <a
-          class="font-extrabold tracking-wide leading-none flex-shrink-0 p-3 border-2 text-white border-gray-700 rounded hover:bg-gray-700 focus:bg-gray-700 transition-colors duration-200"
+          class="
+            font-extrabold
+            tracking-wide
+            leading-none
+            flex-shrink-0
+            p-3
+            border-2
+            text-white
+            border-gray-700
+            rounded
+            hover:bg-gray-700
+            focus:bg-gray-700
+            transition-colors
+            duration-200
+          "
           href="https://www.vishnuraghav.com/donate"
           target="_blank"
           >Donate</a
@@ -18,9 +32,16 @@
       </div>
       <div id="guide" class="max-w-screen-sm">
         <h1
-          class="text-3xl md:text-5xl font-extrabold mt-24 md:mt-48 md:leading-tight"
+          class="
+            text-3xl
+            md:text-5xl
+            font-extrabold
+            mt-24
+            md:mt-48
+            md:leading-tight
+          "
         >
-          Hosting Guide
+          Self-Hosting Guide
         </h1>
         <h2 class="mt-8 text-lg md:text-xl w-full md:w-3/4 text-gray-200">
           Please follow the instructions as per your category to get your
@@ -79,8 +100,16 @@
               business cards for you using
               <NuxtLink
                 to="/"
-                class="underline font-extrabold text-green-600 hover:text-green-500 focus:text-green-500 transition-colors duration-200"
-                >EnBizCard</NuxtLink
+                class="
+                  underline
+                  font-extrabold
+                  text-green-600
+                  hover:text-green-500
+                  focus:text-green-500
+                  transition-colors
+                  duration-200
+                "
+                >SMART vCARD</NuxtLink
               >.
             </li>
             <li>
@@ -88,10 +117,18 @@
               IT team to host it for you. Just send them the downloaded ZIP
               files and share the link to this
               <a
-                class="underline font-extrabold text-green-600 hover:text-green-500 focus:text-green-500 transition-colors duration-200"
-                href="https://enbizcard.vercel.app/hosting-guide"
+                class="
+                  underline
+                  font-extrabold
+                  text-green-600
+                  hover:text-green-500
+                  focus:text-green-500
+                  transition-colors
+                  duration-200
+                "
+                href="https://smartvcard.comhosting-guide"
                 target="_blank"
-                >Hosting Guide</a
+                >Self-Hosting Guide</a
               >.
             </li>
           </ul>
@@ -120,21 +157,45 @@
             You can host your digital business card using several free hosting
             services available such as
             <a
-              class="underline font-extrabold text-green-600 hover:text-green-500 focus:text-green-500 transition-colors duration-200"
+              class="
+                underline
+                font-extrabold
+                text-green-600
+                hover:text-green-500
+                focus:text-green-500
+                transition-colors
+                duration-200
+              "
               href="https://surge.sh"
               target="_blank"
               rel="noopener noreferrer"
               >Surge</a
             >,
             <a
-              class="underline font-extrabold text-green-600 hover:text-green-500 focus:text-green-500 transition-colors duration-200"
+              class="
+                underline
+                font-extrabold
+                text-green-600
+                hover:text-green-500
+                focus:text-green-500
+                transition-colors
+                duration-200
+              "
               href="https://pages.github.com/"
               target="_blank"
               rel="noopener noreferrer"
               >GitHub Pages</a
             >,
             <a
-              class="underline font-extrabold text-green-600 hover:text-green-500 focus:text-green-500 transition-colors duration-200"
+              class="
+                underline
+                font-extrabold
+                text-green-600
+                hover:text-green-500
+                focus:text-green-500
+                transition-colors
+                duration-200
+              "
               href="https://docs.gitlab.com/ee/user/project/pages/"
               target="_blank"
               rel="noopener noreferrer"
@@ -156,8 +217,16 @@
             If you got any doubt setting up your digital business card on any of
             these platforms, You can always
             <a
-              class="underline text-green-600 font-extrabold hover:text-green-500 focus:text-green-500 transition-colors duration-200"
-              href="https://t.me/enbizcard"
+              class="
+                underline
+                text-green-600
+                font-extrabold
+                hover:text-green-500
+                focus:text-green-500
+                transition-colors
+                duration-200
+              "
+              href="https://t.me/SMART vCARD"
               target="_blank"
               rel="noopener noreferrer"
               >join the telegram group</a
@@ -170,16 +239,24 @@
             How do I update my business card details?
           </h3>
           <p class="mt-6">
-            EnBizCard does not store any data online for you to retrieve it for
-            editing. So, every card has to be manually created from scratch.
+            SMART vCARD does not store any data online for you to retrieve it
+            for editing. So, every card has to be manually created from scratch.
           </p>
           <ul class="px-6 mt-6 list-outside list-disc">
             <li>
               Visit
               <NuxtLink
                 to="/"
-                class="underline font-extrabold text-green-600 hover:text-green-500 focus:text-green-500 transition-colors duration-200"
-                >EnBizCard</NuxtLink
+                class="
+                  underline
+                  font-extrabold
+                  text-green-600
+                  hover:text-green-500
+                  focus:text-green-500
+                  transition-colors
+                  duration-200
+                "
+                >SMART vCARD</NuxtLink
               >
               and generate a new digital business card.
             </li>
@@ -202,8 +279,16 @@
               Visit
               <NuxtLink
                 to="/"
-                class="underline font-extrabold text-green-600 hover:text-green-500 focus:text-green-500 transition-colors duration-200"
-                >EnBizCard</NuxtLink
+                class="
+                  underline
+                  font-extrabold
+                  text-green-600
+                  hover:text-green-500
+                  focus:text-green-500
+                  transition-colors
+                  duration-200
+                "
+                >SMART vCARD</NuxtLink
               >
               and generate a digital business card.
             </li>
@@ -225,8 +310,16 @@
       <div class="mt-24">
         Help me improve this guide on
         <a
-          class="underline text-green-600 font-extrabold hover:text-green-500 focus:text-green-500 transition-colors duration-200"
-          href="https://github.com/vishnuraghavb/EnBizCard"
+          class="
+            underline
+            text-green-600
+            font-extrabold
+            hover:text-green-500
+            focus:text-green-500
+            transition-colors
+            duration-200
+          "
+          href="https://github.com/vishnuraghavb/SMART vCARD"
           target="_blank"
           rel="noopener noreferrer"
           >GitHub</a

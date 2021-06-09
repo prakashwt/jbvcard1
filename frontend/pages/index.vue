@@ -13,14 +13,32 @@
     <transition name="drop">
       <div
         v-if="inView || showPreview"
-        class="fixed top-0 w-full z-30 bg-gray-900 justify-between items-center flex md:hidden"
+        class="
+          fixed
+          top-0
+          w-full
+          z-30
+          bg-gray-900
+          justify-between
+          items-center
+          flex
+          md:hidden
+        "
       >
         <div
           class="logo w-16 m-4"
           v-html="require(`~/assets/icons/logo.svg?include`)"
         ></div>
         <button
-          class="p-3 mx-4 font-extrabold rounded tracking-wide focus:outline-none select-none"
+          class="
+            p-3
+            mx-4
+            font-extrabold
+            rounded
+            tracking-wide
+            focus:outline-none
+            select-none
+          "
           :class="showPreview ? 'bg-gray-700' : 'bg-green-600'"
           @click="!opening && togglePreview()"
         >
@@ -55,40 +73,97 @@
         <div
           class="logo w-24"
           v-html="require(`~/assets/icons/logo.svg?include`)"
-          title="EnBizCard - An Open-Source Digital Business Card Generator"
+          title="SMART vCARD - An Open-Source Digital Business Card Generator"
         ></div>
-        <!-- <a
-          class="font-extrabold tracking-wide leading-none flex-shrink-0 p-3 border-2 text-white border-gray-700 rounded hover:bg-gray-700 focus:bg-gray-700 transition-colors duration-200"
+        <a
+          class="
+            font-extrabold
+            tracking-wide
+            leading-none
+            flex-shrink-0
+            p-3
+            border-2
+            text-white
+            border-gray-700
+            rounded
+            hover:bg-gray-700
+            focus:bg-gray-700
+            transition-colors
+            duration-200
+          "
           href="https://www.vishnuraghav.com/donate"
           target="_blank"
           rel="noreferrer"
           >Donate</a
-        > -->
+        >
       </div>
       <h1
-        class="text-3xl md:text-5xl font-extrabold mt-24 md:mt-48 md:leading-tight"
+        class="
+          text-3xl
+          md:text-5xl
+          font-extrabold
+          mt-24
+          md:mt-48
+          md:leading-tight
+        "
       >
         Why Pay When Your Website Can Host Your Digital Business Cards for Free!
       </h1>
       <p class="mt-8 text-lg md:text-xl w-full md:w-3/4 text-gray-200">
-        EnBizCard helps you create beautiful, responsive HTML&#8209;based
+        SMART vCARD helps you create beautiful, responsive HTML&#8209;based
         digital business cards that can be hosted on your website.
       </p>
       <ul class="mt-4 text-gray-400">
         <li>-&ensp;No sign-up required</li>
-        <li>-&ensp;100% free and open-source</li>
+        <li>
+          -&ensp;Premium and secure hosting is available on our short url (i.e
+          vcard.fyi/yourname)
+        </li>
         <li>-&ensp;No user tracking and data collection</li>
         <li>-&ensp;Works offline</li>
       </ul>
       <div class="mt-4 flex flex-wrap items-center">
         <button
-          class="font-extrabold leading-none text-lg tracking-wide select-none flex-shrink-0 p-5 mt-2 mr-2 text-white bg-green-600 rounded hover:bg-green-500 focus:bg-green-500 transition-colors duration-200 focus:outline-none"
+          class="
+            font-extrabold
+            leading-none
+            text-lg
+            tracking-wide
+            select-none
+            flex-shrink-0
+            p-5
+            mt-2
+            mr-2
+            text-white
+            bg-green-600
+            rounded
+            hover:bg-green-500
+            focus:bg-green-500
+            transition-colors
+            duration-200
+            focus:outline-none
+          "
           @click="create()"
         >
           Create your own
         </button>
         <a
-          class="font-extrabold leading-none text-lg tracking-wide flex-shrink-0 p-5 mt-2 text-white bg-gray-700 rounded hover:bg-gray-600 focus:bg-gray-600 transition-colors duration-200"
+          class="
+            font-extrabold
+            leading-none
+            text-lg
+            tracking-wide
+            flex-shrink-0
+            p-5
+            mt-2
+            text-white
+            bg-gray-700
+            rounded
+            hover:bg-gray-600
+            focus:bg-gray-600
+            transition-colors
+            duration-200
+          "
           href="/demo"
           target="_blank"
           >View demo</a
@@ -98,8 +173,31 @@
         Read the
         <NuxtLink
           to="/hosting-guide"
-          class="cursor-pointer underline font-extrabold text-green-600 hover:text-green-500 focus:text-green-500 transition-colors duration-200"
-          >Hosting Guide</NuxtLink
+          class="
+            cursor-pointer
+            underline
+            font-extrabold
+            text-green-600
+            hover:text-green-500
+            focus:text-green-500
+            transition-colors
+            duration-200
+          "
+          >Self-Hosting Guide</NuxtLink
+        >
+        or use our
+        <span
+          class="
+            cursor-pointer
+            underline
+            font-extrabold
+            text-green-600
+            hover:text-green-500
+            focus:text-green-500
+            transition-colors
+            duration-200
+          "
+          >short URL</span
         >
       </p>
     </div>
@@ -135,7 +233,20 @@
               spellcheck="false"
               type="text"
               v-model="genInfo.name"
-              class="mt-2 px-4 w-full h-12 bg-black rounded border border-transparent transition-colors duration-200 focus:outline-none focus:border-gray-600 hover:border-gray-600"
+              class="
+                mt-2
+                px-4
+                w-full
+                h-12
+                bg-black
+                rounded
+                border border-transparent
+                transition-colors
+                duration-200
+                focus:outline-none
+                focus:border-gray-600
+                hover:border-gray-600
+              "
             />
           </div>
           <div class="stepC mt-6">
@@ -145,7 +256,20 @@
               type="text"
               spellcheck="true"
               v-model="genInfo.title"
-              class="mt-2 px-4 w-full h-12 bg-black rounded border border-transparent transition-colors duration-200 focus:outline-none focus:border-gray-600 hover:border-gray-600"
+              class="
+                mt-2
+                px-4
+                w-full
+                h-12
+                bg-black
+                rounded
+                border border-transparent
+                transition-colors
+                duration-200
+                focus:outline-none
+                focus:border-gray-600
+                hover:border-gray-600
+              "
             />
           </div>
           <div class="stepC mt-6">
@@ -155,7 +279,20 @@
               spellcheck="false"
               type="text"
               v-model="genInfo.biz"
-              class="mt-2 px-4 w-full h-12 bg-black rounded border border-transparent transition-colors duration-200 focus:outline-none focus:border-gray-600 hover:border-gray-600"
+              class="
+                mt-2
+                px-4
+                w-full
+                h-12
+                bg-black
+                rounded
+                border border-transparent
+                transition-colors
+                duration-200
+                focus:outline-none
+                focus:border-gray-600
+                hover:border-gray-600
+              "
             />
           </div>
           <div class="stepC mt-6">
@@ -166,7 +303,22 @@
               id="business-description"
               :value="genInfo.desc"
               @input="genInfo.desc = $event.target.value"
-              class="block mt-2 px-4 py-3 w-full bg-black rounded border border-transparent transition-colors duration-200 focus:outline-none focus:border-gray-600 resize-none hover:border-gray-600"
+              class="
+                block
+                mt-2
+                px-4
+                py-3
+                w-full
+                bg-black
+                rounded
+                border border-transparent
+                transition-colors
+                duration-200
+                focus:outline-none
+                focus:border-gray-600
+                resize-none
+                hover:border-gray-600
+              "
               rows="4"
             ></textarea>
           </div>
@@ -239,7 +391,17 @@
               v-for="(action, index) in actions.primaryActions"
               :key="index"
               @click="addAction('primaryActions', index)"
-              class="p-3 flex-shrink-0 rounded-full hover:scale-125 focus:scale-125 transform transition-transform duration-200 focus:outline-none"
+              class="
+                p-3
+                flex-shrink-0
+                rounded-full
+                hover:scale-125
+                focus:scale-125
+                transform
+                transition-transform
+                duration-200
+                focus:outline-none
+              "
               :style="{
                 backgroundColor: `${colors.buttonBg.color}`,
               }"
@@ -282,7 +444,17 @@
               v-for="(action, index) in actions.secondaryActions"
               :key="index"
               @click="addAction('secondaryActions', index)"
-              class="p-3 flex-shrink-0 rounded-full hover:scale-125 focus:scale-125 transform transition-transform duration-200 focus:outline-none"
+              class="
+                p-3
+                flex-shrink-0
+                rounded-full
+                hover:scale-125
+                focus:scale-125
+                transform
+                transition-transform
+                duration-200
+                focus:outline-none
+              "
               :style="{ backgroundColor: action.color }"
               :title="
                 action.name.substr(0, 1).toUpperCase() + action.name.slice(1)
@@ -320,7 +492,16 @@
             <div class="flex mt-6">
               <div class="flex flex-wrap items-center">
                 <button
-                  class="p-3 rounded bg-gray-700 hover:bg-gray-600 focus:bg-gray-600 transition-colors duration-200 focus:outline-none"
+                  class="
+                    p-3
+                    rounded
+                    bg-gray-700
+                    hover:bg-gray-600
+                    focus:bg-gray-600
+                    transition-colors
+                    duration-200
+                    focus:outline-none
+                  "
                   @click="addFeature()"
                   aria-label="Add section"
                 >
@@ -342,9 +523,28 @@
           <div class="stepC mt-6">
             <div class="flex items-center">
               <div
-                class="relative group inline-block w-24 h-12 mr-3 align-middle select-none transition duration-200 ease-in bg-gray-700 rounded hover:bg-gray-600 focus:bg-gray-600 cursor-pointer focus:outline-none"
+                class="
+                  relative
+                  group
+                  inline-block
+                  w-24
+                  h-12
+                  mr-3
+                  align-middle
+                  select-none
+                  transition
+                  duration-200
+                  ease-in
+                  bg-gray-700
+                  rounded
+                  hover:bg-gray-600
+                  focus:bg-gray-600
+                  cursor-pointer
+                  focus:outline-none
+                "
                 :class="{
-                  'bg-green-600 hover:bg-green-500 focus:bg-green-500': footerCredit,
+                  'bg-green-600 hover:bg-green-500 focus:bg-green-500':
+                    footerCredit,
                 }"
                 tabindex="0"
                 @click="footerCredit = !footerCredit"
@@ -357,7 +557,22 @@
                     aria-label="Toggle footer credit"
                     id="toggle"
                     v-model="footerCredit"
-                    class="toggle-switch absolute block w-10 h-10 m-1 rounded border-4 border-transparent appearance-none cursor-pointer transition-colors duration-200 focus:outline-none bg-white"
+                    class="
+                      toggle-switch
+                      absolute
+                      block
+                      w-10
+                      h-10
+                      m-1
+                      rounded
+                      border-4 border-transparent
+                      appearance-none
+                      cursor-pointer
+                      transition-colors
+                      duration-200
+                      focus:outline-none
+                      bg-white
+                    "
                     tabindex="-1"
                   />
                 </transition>
@@ -371,15 +586,41 @@
           </div>
         </div>
         <div id="step-7" class="mt-16">
-          <h2 class="font-extrabold text-2xl">Themes (coming soon)</h2>
+          <h2 class="font-extrabold text-2xl">Themes</h2>
           <div class="stepC mt-3 flex flex-wrap">
             <button
-              class="w-12 h-12 rounded mt-3 mr-3 bg-green-600 hover:bg-green-500 focus:bg-green-500 font-extrabold focus:outline-none transition-colors duration-200"
+              class="
+                w-12
+                h-12
+                rounded
+                mt-3
+                mr-3
+                bg-green-600
+                hover:bg-green-500
+                focus:bg-green-500
+                font-extrabold
+                focus:outline-none
+                transition-colors
+                duration-200
+              "
             >
               T1
             </button>
             <button
-              class="w-12 h-12 rounded mt-3 mr-3 text-black bg-gray-700 font-extrabold focus:outline-none transition-colors duration-200 cursor-default"
+              class="
+                w-12
+                h-12
+                rounded
+                mt-3
+                mr-3
+                text-black
+                bg-gray-700
+                font-extrabold
+                focus:outline-none
+                transition-colors
+                duration-200
+                cursor-default
+              "
             >
               T2
             </button>
@@ -405,7 +646,23 @@
             <textarea
               id="font-link"
               v-model="genInfo.fontLink"
-              class="block mt-2 px-4 py-3 w-full bg-black placeholder-gray-600 rounded border border-transparent transition-colors duration-200 focus:outline-none focus:border-gray-600 resize-none hover:border-gray-600"
+              class="
+                block
+                mt-2
+                px-4
+                py-3
+                w-full
+                bg-black
+                placeholder-gray-600
+                rounded
+                border border-transparent
+                transition-colors
+                duration-200
+                focus:outline-none
+                focus:border-gray-600
+                resize-none
+                hover:border-gray-600
+              "
               rows="4"
               spellcheck="false"
               :placeholder="`<link href=&quot;https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap&quot; rel=&quot;stylesheet&quot;>`"
@@ -418,7 +675,23 @@
               type="text"
               id="font-css"
               v-model="genInfo.fontCss"
-              class="block mt-2 px-4 py-3 w-full bg-black placeholder-gray-600 rounded border border-transparent transition-colors duration-200 focus:outline-none focus:border-gray-600 resize-none hover:border-gray-600"
+              class="
+                block
+                mt-2
+                px-4
+                py-3
+                w-full
+                bg-black
+                placeholder-gray-600
+                rounded
+                border border-transparent
+                transition-colors
+                duration-200
+                focus:outline-none
+                focus:border-gray-600
+                resize-none
+                hover:border-gray-600
+              "
               :placeholder="`font-family: 'Poppins', sans-serif;`"
             />
           </div>
@@ -435,7 +708,23 @@
               id="tracking-code"
               aria-label="tracking-code"
               v-model="genInfo.tracker"
-              class="block mt-2 px-4 py-3 w-full bg-black placeholder-gray-600 rounded border border-transparent transition-colors duration-200 focus:outline-none focus:border-gray-600 resize-none hover:border-gray-600"
+              class="
+                block
+                mt-2
+                px-4
+                py-3
+                w-full
+                bg-black
+                placeholder-gray-600
+                rounded
+                border border-transparent
+                transition-colors
+                duration-200
+                focus:outline-none
+                focus:border-gray-600
+                resize-none
+                hover:border-gray-600
+              "
               rows="4"
               spellcheck="false"
               placeholder="Paste tracking code here"
@@ -458,7 +747,15 @@
       >
         <div
           id="preview"
-          class="flex flex-col items-center justify-center sm:sticky sm:top-0 md:mx-6 lg:mx-12"
+          class="
+            flex flex-col
+            items-center
+            justify-center
+            sm:sticky
+            sm:top-0
+            md:mx-6
+            lg:mx-12
+          "
         >
           <div id="device" class="bg-black rounded sm:mt-10">
             <h2 class="text-center py-4 font-extrabold text-gray-200">
@@ -467,7 +764,12 @@
             <div id="browserFrame" class="overflow-hidden flex flex-col">
               <div
                 id="topBar"
-                class="topbar border-r-4 border-l-4 border-black bg-gray-900 z-10"
+                class="
+                  topbar
+                  border-r-4 border-l-4 border-black
+                  bg-gray-900
+                  z-10
+                "
               >
                 <div id="searchField" class="p-2 flex items-center">
                   <input
@@ -664,12 +966,12 @@ export default {
             value: null,
             label: 'Google Chat URL',
           },
-          // {
-          //   name: 'calendar',
-          //   placeholder: 'https://example.com',
-          //   value: null,
-          //   label: 'Calender',
-          // },
+          {
+            name: 'calendar',
+            placeholder: 'https://example.com',
+            value: null,
+            label: 'Calender',
+          },
           {
             name: 'store',
             placeholder: 'https://example.com/storeID',
@@ -968,7 +1270,7 @@ export default {
         EMAIL: email,
         URL: website,
         KEY: this.genInfo.fp,
-        UID: `enbizcard-${randomNumber}`,
+        UID: `SMART vCARD-${randomNumber}`,
       }
     },
   },
@@ -1184,7 +1486,7 @@ export default {
           })
           let guide = new Blob(
             [
-              '<html><head><meta http-equiv="refresh" content="0; url=https://enbizcard.vercel.app/hosting-guide" /></head></html>',
+              '<html><head><meta http-equiv="refresh" content="0; url=https://smartvcard.comhosting-guide" /></head></html>',
             ],
             {
               type: 'text/html',
@@ -1215,8 +1517,9 @@ export default {
           }
 
           // Featured content
-          let hasFeaturedContent = this.featured.filter((e) => e.content.length)
-            .length
+          let hasFeaturedContent = this.featured.filter(
+            (e) => e.content.length
+          ).length
           if (hasFeaturedContent) {
             this.featured.forEach((item) => {
               item.content.forEach((item) => {
