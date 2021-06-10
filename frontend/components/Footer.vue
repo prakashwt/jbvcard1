@@ -1,5 +1,5 @@
-<template>
-  <footer class="mt-32 mx-4 flex flex-col">
+<template >
+  <footer class="h-30 mt-32 mx-4 flex flex-col">
     <div class="flex flex-col justify-center items-center">
       <div
         class="logo w-12"
@@ -68,5 +68,4 @@
 export default {}
 </script>
 
-<style>
-</style>
+

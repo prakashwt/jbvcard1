@@ -921,7 +921,7 @@ export default {
             label: 'Phone number',
           },
           {
-            name: 'sms',
+            name: 'SMS',
             href: 'SMS:',
             placeholder: '+1 XXX XXX XXXX',
             value: null,

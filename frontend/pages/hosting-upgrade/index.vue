@@ -1,15 +1,12 @@
 <template>
-  <div
-    class="flex flex-col min-h-screen bg-gray-900 mx-auto text-gray-100"
-    style="max-width: 960px"
-  >
+  <div class="h-30 bg-gray-900 mx-auto text-gray-100" style="max-width: 960px">
     <div class="px-4">
       <div class="flex items-start justify-between pt-8">
         <NuxtLink to="/">
           <div
             class="logo w-24"
             v-html="require(`~/assets/icons/logo.svg?include`)"
-            title="SMART vCARD - An Open-Source Digital Business Card Generator"
+            title="SMARTvCARD - An Open-Source Digital Business Card Generator"
           ></div
         ></NuxtLink>
         <NuxtLink
@@ -32,26 +29,39 @@
           >Host with Us</NuxtLink
         >
       </div>
+      <div id="guide" class="max-w-screen-sm">
+        <h1
+          class="
+            text-3xl
+            md:text-5xl
+            font-extrabold
+            mt-24
+            md:mt-48
+            md:leading-tight
+          "
+        >
+          Terms and Conditions
+        </h1>
 
-      <iframe
-        src="https://msgsndr.com/widget/form/yiRv9pgWMV3mVoyNx1Fd"
-        style="border: none; width: 100%"
-        scrolling="yes"
-        id="yiRv9pgWMV3mVoyNx1Fd"
-      ></iframe>
-      <script src="https://msgsndr.com/js/form_embed.js"></script>
+        <p class="mt-16 border px-4 py-3 rounded border-gray-700">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+          velit voluptate dolor laboriosam beatae repudiandae repellendus
+          temporibus, modi tenetur dolores, fuga accusamus ullam. Quisquam
+          exercitationem id, molestias ipsum cupiditate nobis?
+        </p>
+
+        <!-- </div> -->
+      </div>
     </div>
     <Footer />
   </div>
 </template>
 <script>
 import Footer from '@/components/Footer'
-import Help from '@/components/Help'
 
 export default {
   components: {
     Footer,
-    Help,
   },
 }
 </script>
