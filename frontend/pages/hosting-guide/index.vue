@@ -152,67 +152,6 @@
           </ul>
         </div>
         <div class="mt-16">
-          <h3 class="font-extrabold text-2xl">I don't have a website</h3>
-          <p class="mt-6">
-            You can host your digital business card using several free hosting
-            services available such as
-            <a
-              class="
-                underline
-                font-extrabold
-                text-green-600
-                hover:text-green-500
-                focus:text-green-500
-                transition-colors
-                duration-200
-              "
-              href="https://surge.sh"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Surge</a
-            >,
-            <a
-              class="
-                underline
-                font-extrabold
-                text-green-600
-                hover:text-green-500
-                focus:text-green-500
-                transition-colors
-                duration-200
-              "
-              href="https://pages.github.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              >GitHub Pages</a
-            >,
-            <a
-              class="
-                underline
-                font-extrabold
-                text-green-600
-                hover:text-green-500
-                focus:text-green-500
-                transition-colors
-                duration-200
-              "
-              href="https://docs.gitlab.com/ee/user/project/pages/"
-              target="_blank"
-              rel="noopener noreferrer"
-              >GitLab Pages</a
-            >, etc.
-          </p>
-          <ul class="px-6 mt-6 list-outside list-disc">
-            <li>
-              Follow the user guide of any of the services mentioned above to
-              setup a website.
-            </li>
-            <li>
-              Once done, copying your bizcard folder into a respective folder is
-              all it needed to get your digital business card online. But the
-              procedure might vary with platform.
-            </li>
-          </ul>
           <p class="mt-4">
             If you got any doubt setting up your digital business card on any of
             these platforms, You can always
@@ -256,7 +195,7 @@
                   transition-colors
                   duration-200
                 "
-                >SMART vCARD</NuxtLink
+                >SMARTvCARD</NuxtLink
               >
               and generate a new digital business card.
             </li>
@@ -306,24 +245,99 @@
           </ul>
         </div>
       </div>
-      <Help />
-      <div class="mt-24">
-        Help me improve this guide on
+
+      <br />
+      <h3 class="font-extrabold text-2xl">I don't have a website</h3>
+      <p class="mt-6">
+        You can host your digital business card on our premium and secure short
+        URL , vCard.fyi, for less than $10/year
+        <br />
+        Your link will be branded to YOU! ie: https://vcard.fyi/yourname
+        <br />
+        Hosting includes unlimited changs to your business card. To update and
+        make changes, simply generate a new zip folder at
         <a
           class="
             underline
-            text-green-600
             font-extrabold
+            text-green-600
             hover:text-green-500
             focus:text-green-500
             transition-colors
             duration-200
           "
-          href="https://github.com/vishnuraghavb/SMART vCARD"
+          href="#"
           target="_blank"
           rel="noopener noreferrer"
-          >GitHub</a
+          >SMARTvCARD</a
+        >, and send your file to
+        <a
+          class="
+            underline
+            font-extrabold
+            text-green-600
+            hover:text-green-500
+            focus:text-green-500
+            transition-colors
+            duration-200
+          "
+          href="https://#/contact-us"
+          target="_blank"
+          rel="noopener noreferrer"
+          >cutomer support</a
         >
+        <br />
+        Branded links are offered on first come, first served basics. To learn
+        more Click on the button below.
+      </p>
+      <div class="stepC mt-6">
+        <div class="donateBtn flex items-center mt-6">
+          <NuxtLink
+            to="/"
+            class="
+              flex
+              items-center
+              text-lg
+              leading-none
+              p-5
+              flex-shrink-0
+              rounded
+              cursor-pointer
+              border-2 border-transparent
+              bg-gray-700
+              text-white
+              hover:bg-gray-600
+              focus:bg-gray-600
+              transition-colors
+              duration-200
+              font-extrabold
+            "
+            rel="noreferrer"
+          >
+            Host My Business Card
+          </NuxtLink>
+        </div>
+
+        <div class="mt-16">
+          <!-- <div class="px-6 mt-6 list-outside list-disc"> -->
+          <p>
+            If you need further assistance, please contact
+            <NuxtLink
+              to="/contact-us"
+              class="
+                underline
+                font-extrabold
+                text-green-600
+                hover:text-green-500
+                focus:text-green-500
+                transition-colors
+                duration-200
+              "
+              >Customer Support</NuxtLink
+            >
+          </p>
+        </div>
+        <!-- </div> -->
       </div>
     </div>
     <Footer />
@@ -331,12 +345,10 @@
 </template>
 <script>
 import Footer from '@/components/Footer'
-import Help from '@/components/Help'
 
 export default {
   components: {
     Footer,
-    Help,
   },
 }
 </script>
