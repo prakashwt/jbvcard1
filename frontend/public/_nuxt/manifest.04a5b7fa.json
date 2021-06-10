@@ -1,0 +1,16 @@
+{
+  "name": "SMARTvCARD - A product of GET BAER",
+  "short_name": "SMARTvCARD",
+  "description": "<p align=\"center\"><a href=\"https://smartvcard.com\"><img src=\"assets/images/GitHub.png\" width=\"100%\"></a></p>",
+  "icons": [
+    {
+      "src": "/favi.png",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#111827",
+  "theme_color": "#111827",
+  "lang": "en"
+}

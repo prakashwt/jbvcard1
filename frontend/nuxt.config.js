@@ -47,7 +47,7 @@ export default {
         hid: 'msapplication-TileImage',
         name: 'msapplication-TileImage',
         property: 'msapplication-TileImage',
-        content: '/mstile-150x150.png'
+        content: '/favi.png'
       }
     ],
     link: [
@@ -89,81 +89,8 @@ export default {
     display: 'standalone',
     icons: [
       {
-        src: '/icon_64.png',
-        sizes: '64x64',
+        src: '/favi.png',
         type: 'image/png'
-      },
-      {
-        src: '/maskable_64.png',
-        sizes: '64x64',
-        type: 'image/png',
-        purpose: 'maskable'
-      },
-      {
-        src: '/icon_120.png',
-        sizes: '120x120',
-        type: 'image/png'
-      },
-      {
-        src: '/maskable_120.png',
-        sizes: '120x120',
-        type: 'image/png',
-        purpose: 'maskable'
-      },
-      {
-        src: '/icon_144.png',
-        sizes: '144x144',
-        type: 'image/png'
-      },
-      {
-        src: '/maskable_144.png',
-        sizes: '144x144',
-        type: 'image/png',
-        purpose: 'maskable'
-      },
-      {
-        src: '/icon_152.png',
-        sizes: '152x152',
-        type: 'image/png'
-      },
-      {
-        src: '/maskable_152.png',
-        sizes: '152x152',
-        type: 'image/png',
-        purpose: 'maskable'
-      },
-      {
-        src: '/icon_192.png',
-        sizes: '192x192',
-        type: 'image/png'
-      },
-      {
-        src: '/maskable_192.png',
-        sizes: '192x192',
-        type: 'image/png',
-        purpose: 'maskable'
-      },
-      {
-        src: '/icon_384.png',
-        sizes: '384x384',
-        type: 'image/png'
-      },
-      {
-        src: '/maskable_384.png',
-        sizes: '384x384',
-        type: 'image/png',
-        purpose: 'maskable'
-      },
-      {
-        src: '/icon_512.png',
-        sizes: '512x512',
-        type: 'image/png'
-      },
-      {
-        src: '/maskable_512.png',
-        sizes: '512x512',
-        type: 'image/png',
-        purpose: 'maskable'
       }
     ]
   },
