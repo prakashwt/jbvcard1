@@ -43,300 +43,360 @@
           Privacy Policy
         </h1>
         <h2 class="mt-8 text-lg md:text-xl w-full md:w-3/4 text-gray-200">
-          Please follow the instructions as per your category to get your
-          digital business card online.
+          Your Privacy
         </h2>
 
         <p class="mt-16 border px-4 py-3 rounded border-gray-700">
-          Your digital business card files are in the folder you just extracted
-          from your downloaded ZIP file. This folder will be referred to as the
-          "<span class="font-extrabold">bizcard folder</span>" throughout this
-          guide.
+          Your privacy is important to us. To better protect your privacy we
+          provide this notice explaining our online information practices and
+          the choices you can make about the way your information is collected
+          and used. You agree to agree to these policies by virtue of using our
+          website in a way that leads to you providing us with personal
+          information.
         </p>
 
         <div class="mt-16">
           <h3 class="font-extrabold text-2xl">
-            I have a personal WordPress website
-          </h3>
-          <ul class="px-6 mt-6 list-outside list-disc">
-            <li>
-              Login to your cPanel account. Locate and open the file manager.
-            </li>
-            <li>
-              In the file manager, locate the folder named "public_html" and
-              create a new folder called "vcard" ( or whatever you like ) inside
-              it.
-            </li>
-            <li>
-              Upload your bizcard folder into the new folder that you just
-              created in the previous step.
-            </li>
-            <li>
-              Now your business card should be online at the address
-              https://your-domain.com/vcard/bizcard-folder-name/ and is ready to
-              be shared.
-            </li>
-          </ul>
-        </div>
-        <div class="mt-16">
-          <h3 class="font-extrabold text-2xl">
-            My website is maintained by a developer
-          </h3>
-          <ul class="px-6 mt-6 list-outside list-disc">
-            <li>
-              Contact your developer to host the business card for you. Just
-              send them the downloaded ZIP file.
-            </li>
-          </ul>
-        </div>
-        <div class="mt-16">
-          <h3 class="font-extrabold text-2xl">
-            We are a company. Our website is maintained by the IT team
-          </h3>
-          <ul class="px-6 mt-6 list-outside list-disc">
-            <li>
-              Just share the details with your IT team, let them create digital
-              business cards for you using
-              <NuxtLink
-                to="/"
-                class="
-                  underline
-                  font-extrabold
-                  text-green-600
-                  hover:text-green-500
-                  focus:text-green-500
-                  transition-colors
-                  duration-200
-                "
-                >SMARTvCARD</NuxtLink
-              >.
-            </li>
-            <li>
-              If you got some business cards created by yourself, contact your
-              IT team to host it for you. Just send them the downloaded ZIP
-              files and share the link to this
-              <a
-                class="
-                  underline
-                  font-extrabold
-                  text-green-600
-                  hover:text-green-500
-                  focus:text-green-500
-                  transition-colors
-                  duration-200
-                "
-                href="https://smartvcard.comhosting-guide"
-                target="_blank"
-                >Self-Hosting Guide</a
-              >.
-            </li>
-          </ul>
-        </div>
-        <div class="mt-16">
-          <h3 class="font-extrabold text-2xl">
-            I'm the developer / administrator of a website
-          </h3>
-          <ul class="px-6 mt-6 list-outside list-disc">
-            <li>
-              Create a folder called "vcard" ( or whatever you like ) in the
-              project's static folder.
-            </li>
-            <li>Copy the bizcard folder inside the "vcard" folder.</li>
-            <li>Commit changes and deploy.</li>
-            <li>
-              Now the business card should be online at the address
-              https://your-domain/vcard/bizcard-folder/ and is ready to be
-              shared.
-            </li>
-          </ul>
-        </div>
-        <div class="mt-16">
-          <p class="mt-4">
-            If you got any doubt setting up your digital business card on any of
-            these platforms, You can always
-            <a
-              class="
-                underline
-                text-green-600
-                font-extrabold
-                hover:text-green-500
-                focus:text-green-500
-                transition-colors
-                duration-200
-              "
-              href="https://t.me/SMARTvCARD"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Contact Support</a
-            >
-            and ask it.
-          </p>
-        </div>
-        <div class="mt-16">
-          <h3 class="font-extrabold text-2xl">
-            How do I update my business card details?
+            State Law & Accompanying Rights
           </h3>
           <p class="mt-6">
-            SMARTvCARD does not store any data online for you to retrieve it for
-            editing. So, every card has to be manually created from scratch.
+            Please understand that you may have additional rights originating
+            from State laws based on where you live. These State-based rights
+            may augment, strengthen, or otherwise somehow compliment any privacy
+            rights you have inherently or under Federal law. Our policy is to
+            comply fully with the privacy policies of every jurisdiction in
+            which we operate. Accordingly, you are free to use our Contact
+            information to reach us at any time to assert any State rights.
           </p>
-          <ul class="px-6 mt-6 list-outside list-disc">
-            <li>
-              Visit
-              <NuxtLink
-                to="/"
-                class="
-                  underline
-                  font-extrabold
-                  text-green-600
-                  hover:text-green-500
-                  focus:text-green-500
-                  transition-colors
-                  duration-200
-                "
-                >SMARTvCARD</NuxtLink
-              >
-              and generate a new digital business card.
-            </li>
-            <li>
-              Extract the downloaded ZIP file and copy your bizcard folder
-              containing your updated files.
-            </li>
-            <li>
-              Follow the exact same steps as per your category listed above to
-              update your digital business card.
-            </li>
-          </ul>
         </div>
+
         <div class="mt-16">
           <h3 class="font-extrabold text-2xl">
-            How do I add another business card to my website?
+            Our Commitment To Children’s Privacy
           </h3>
-          <ul class="px-6 mt-6 list-outside list-disc">
-            <li>
-              Visit
-              <NuxtLink
-                to="/"
-                class="
-                  underline
-                  font-extrabold
-                  text-green-600
-                  hover:text-green-500
-                  focus:text-green-500
-                  transition-colors
-                  duration-200
-                "
-                >SMARTvCARD</NuxtLink
-              >
-              and generate a digital business card.
-            </li>
-            <li>
-              Extract the downloaded ZIP file and copy the bizcard folder.
-            </li>
-            <li>
-              Follow the exact same steps as per your category listed above to
-              add the digital business card.
-            </li>
-            <li>
-              Place the copied folder inside the same folder where you already
-              have your bizcard folders.
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <br />
-      <h3 class="font-extrabold text-2xl">I don't have a website</h3>
-      <p class="mt-6">
-        You can host your digital business card on our premium and secure short
-        URL , vCard.fyi, for less than $10/year
-        <br />
-        Your link will be branded to YOU! ie: https://vcard.fyi/yourname
-        <br />
-        Hosting includes unlimited changs to your business card. To update and
-        make changes, simply generate a new zip folder at
-        <a
-          class="
-            underline
-            font-extrabold
-            text-green-600
-            hover:text-green-500
-            focus:text-green-500
-            transition-colors
-            duration-200
-          "
-          href="#"
-          target="_blank"
-          rel="noopener noreferrer"
-          >SMARTvCARD</a
-        >, and send your file to
-        <a
-          class="
-            underline
-            font-extrabold
-            text-green-600
-            hover:text-green-500
-            focus:text-green-500
-            transition-colors
-            duration-200
-          "
-          href="https://#/contact-us"
-          target="_blank"
-          rel="noopener noreferrer"
-          >cutomer support</a
-        >
-        <br />
-        Branded links are offered on first come, first served basics. To learn
-        more Click on the button below.
-      </p>
-      <div class="stepC mt-6">
-        <div class="donateBtn flex items-center mt-6">
-          <NuxtLink
-            to="/"
-            class="
-              flex
-              items-center
-              text-lg
-              leading-none
-              p-5
-              flex-shrink-0
-              rounded
-              cursor-pointer
-              border-2 border-transparent
-              bg-gray-700
-              text-white
-              hover:bg-gray-600
-              focus:bg-gray-600
-              transition-colors
-              duration-200
-              font-extrabold
-            "
-            rel="noreferrer"
-          >
-            Host My Business Card
-          </NuxtLink>
+          <p class="mt-6">
+            Protecting the privacy of the very young is especially important.
+            For that reason, our website will never collect or maintain
+            information at our website from those we actually know are under 18,
+            and no part of our website is structured to attract anyone under 18.
+          </p>
+          <br />
+          <p>
+            Under our Terms of Service and Conditions of Use, children under 18
+            are not allowed to use our website and access our services. It is
+            not our intention to offer products or services to minors.
+          </p>
         </div>
 
         <div class="mt-16">
-          <!-- <div class="px-6 mt-6 list-outside list-disc"> -->
-          <p>
-            If you need further assistance, please contact
-            <NuxtLink
-              to="/contact-us"
-              class="
-                underline
-                font-extrabold
-                text-green-600
-                hover:text-green-500
-                focus:text-green-500
-                transition-colors
-                duration-200
-              "
-              >Customer Support</NuxtLink
-            >
+          <h3 class="font-extrabold text-2xl">Google Analytics</h3>
+          <p class="mt-6">
+            SMART vCARD uses Google Analytics to help analyse how users use the
+            site. The tool uses “cookies,” which are text files placed on your
+            computer, to collect standard Internet log information and visitor
+            behavior information in an anonymous form. The information generated
+            by the cookie about your use of the website (including your IP
+            address) is transmitted to Google. This information is then used to
+            evaluate visitors’ use of this website and to compile statistical
+            reports on website activity.
+          </p>
+          <br />
+          <p class="mt-6">
+            We will never (and will not allow any third party to) use the
+            statistical analytics tool to track or to collect any Personally
+            Identifiable Information of visitors to our site. Google will not
+            associate your IP address with any other data held by Google.
+            Neither we nor Google will link, or seek to link, an IP address with
+            the identity of a computer user.
+          </p>
+
+          <br />
+          <p class="mt-6">
+            You may refuse the use of cookies by selecting the appropriate
+            settings on your browser, however please note that if you do this
+            you may not be able to use the full functionality of this website.
+            By using this website, you consent to the processing of data about
+            you by Google in the manner and for the purposes set out above.
           </p>
         </div>
-        <!-- </div> -->
+
+        <div class="mt-16">
+          <h3 class="font-extrabold text-2xl">
+            Other Collection of Personal Information
+          </h3>
+          <p class="mt-6">
+            When visiting our website, the IP address used to access our website
+            may be logged along with the dates and times of access. This
+            information is purely used to analyze trends, administer our
+            website, track users movement, and gather broad demographic
+            information for internal use such as statistical assessments and
+            website improvement. Most importantly, any recorded IP addresses are
+            not linked to personally identifiable information.
+          </p>
+          <br />
+          <p class="mt-6">
+            Other information may be collected as well, which is rather typical
+            of most websites. For instance, the source that referred you to our
+            website is generally known. Likewise, your duration on our website,
+            and your destination when you leave our website can also be tracked.
+            Other common data collected includes the type of operating system
+            the computer you are using to access our website has. Similarly, the
+            type of web browser is often noted. Again, this is common data
+            collection, and helps ultimately produce a better end-user
+            experience.
+          </p>
+
+          <br />
+          <p class="mt-6">
+            Cookies are another common internet practice. Cookies are a key
+            means of improving user experience by allowing us to customize your
+            use of our website. Simple information is transferred to your
+            computer to allow the content and experience to reflect your
+            actions, preferences, and so on. You should simply make the
+            assumption our website uses cookies, and note that you are free to
+            make adjustments in your web browser to disable these or otherwise
+            receive notification of cookies so you can take whatever desired
+            action you so choose. Please understand that refusing cookies may
+            cripple some of our website features and render some aspects useless
+            to you.
+          </p>
+
+          <br />
+          <p class="mt-6">
+            At times, you will be fully aware of information received, as you
+            are the direct source providing it. For instance, you may comment on
+            a blog post, reply to an email (whether broadcast message or
+            autoresponder), provide an email address, complete a survey, request
+            SMS, or otherwise. Likewise, purchases necessarily involve
+            collecting certain information, such as credit card information,
+            Paypal addresses, your physical address for billing and/or shipping,
+            phone number, and so on. Refusing to provide some of this
+            information may lead to us being unable to provide you with the
+            products or services you’ve requested.
+          </p>
+
+          <br />
+          <p class="mt-6">
+            A prime example of limited access to our website is where content
+            may be protected by a username and password. Whether a username and
+            password is generated by our website, or created by you, these will
+            almost always be connected with some other information related to or
+            connected with you. This is true since much content that is
+            protected on the internet is subscription based, often paid for.
+            Thus, the username and password must necessarily be tied to your
+            other account data. Usernames and passwords, by their very nature,
+            should be kept private.
+          </p>
+        </div>
+
+        <div class="mt-16">
+          <h3 class="font-extrabold text-2xl">
+            Handling of Personal Information
+          </h3>
+          <p class="mt-6">
+            Note that any personal information you provide to others apart from
+            us or our vendors is wholly optional. As an example, you might
+            disclose something in a blog post comment. That “private”
+            information is now “public,” and we have no control over that. In
+            like fashion, you sharing information with any other third party not
+            functioning as a service provider to us puts that information beyond
+            our control and becomes subject to the policy that party has in
+            place.
+          </p>
+          <br />
+          <p class="mt-6">
+            Our primary intention for collecting personal and private
+            information from you is simply to conduct our business. We can use
+            this internally to better serve you. Accordingly, we see no reason
+            to share your personal information to other parties and outside
+            interests unless you have authorized us to do so.
+          </p>
+
+          <br />
+          <p class="mt-6">
+            Of course, there are instances where your information is stored with
+            third party service providers, such as email service providers, as
+            they provide services that are industry-leading in quality and
+            security and are far more beneficial to our end user than attempting
+            such services “in-house.” However, you are never required to deal
+            with any such third party directly, they are limited in how they use
+            your information, and they cannot sell or transfer it to others in
+            any way.
+          </p>
+
+          <br />
+          <p class="mt-6">
+            However, of course, your information does comprise part of an
+            overall whole. This aggregate of information, by contrast, may be
+            used to understand our overall user base. Further, we may share this
+            information about our website visitors as a whole, not individually,
+            with third parties for various purposes, at our sole discretion.
+          </p>
+
+          <br />
+          <p class="mt-6">
+            While we are staunch privacy advocates, there are times when even we
+            may be forced to abandon these ideals. Just as major search engines
+            face ongoing compulsion to provide data against their will, so too
+            may the same occur with our website. Illegal activity or other
+            serious acts or allegations could create legal liability for our
+            website. In those cases, we reserve the right to share your
+            information, or else may simply be compelled to do so by law.
+          </p>
+
+          <br />
+          <p class="mt-6">
+            On the other hand, there may be times when we would need to share
+            your private information in order to protect our own interests. For
+            instance, in cases of suspected or alleged copyright infringement or
+            other intellectual property violations, it may be necessary to share
+            personal information.
+          </p>
+        </div>
+
+        <div class="mt-16">
+          <h3 class="font-extrabold text-2xl">
+            Google Adsense and the DoubleClick DART Cookie
+          </h3>
+          <p class="mt-6">
+            Google, as a third party advertisement vendor, may use cookies to
+            serve ads on this website. The use of DART cookies by Google enables
+            them to serve adverts to visitors that are based on their visits to
+            this website, including past visits, as well as other websites on
+            the internet.
+          </p>
+          <br />
+          <p class="mt-6">
+            To opt out of the DART cookies you may visit the Google ad and
+            content network privacy policy at the following url
+            http://www.google.com/privacy_ads.html Tracking of users through the
+            DART cookie mechanisms are subject to Google’s own privacy policies.
+          </p>
+          <br />
+          <p class="mt-6">
+            Other Third Party ad servers or ad networks may also use cookies to
+            track users activities on this website to measure advertisement
+            effectiveness and other reasons that will be provided in their own
+            privacy policies, our website has no access or control over these
+            cookies that may be used by third party advertisers. However, you
+            can opt out of some, though likely not all, of these cookies in one
+            easy location at
+            http://ww.networkadvertising.org/managing/opt_out.asp
+          </p>
+        </div>
+
+        <div class="mt-16">
+          <h3 class="font-extrabold text-2xl">Links to Third Party Websites</h3>
+          <p class="mt-6">
+            We have included links on this website for your use and reference.
+            We are not responsible for the privacy policies on these websites.
+            You should be aware that the privacy policies of these websites may
+            differ from our own.
+          </p>
+        </div>
+
+        <div class="mt-16">
+          <h3 class="font-extrabold text-2xl">Comments Policy</h3>
+          <p class="mt-6">
+            As you know, Web 2.0 is all about conversation. But without a few
+            simple ground rules, that conversation can turn into a shouting
+            match that discourages others from entering into the fray. So here
+            is the SMART vCARD comments policy. By posting on my blog, you agree
+            to the following:
+          </p>
+          <br />
+          <p class="mt-6">
+            You may comment without registering. You can log-in via Disqus,
+            OpenID, Twitter, Facebook—or not at all. It’s up to you. You may
+            post anonymously. I don’t recommend this, but you may do so if you
+            wish. I may change this rule if it is abused.
+          </p>
+
+          <br />
+          <p class="mt-6">
+            You may post follow-up questions. If you have a question, chances
+            are you are not alone. Others are likely thinking similarly.
+            Therefore, I would rather receive your comments on SMART vCARD than
+            via email. It is a better use of my time to address everyone at once
+            rather than answer several similar emails.
+          </p>
+
+          <br />
+          <p class="mt-6">
+            You may disagree with me. I welcome debate. However, I ask that if
+            you disagree with me—or anyone else, for that matter—do so in a way
+            that is respectful. In my opinion, there is way too much shouting in
+            the public square to tolerate it here.
+          </p>
+
+          <br />
+          <p class="mt-6">
+            SMART vCARD reserves the right to delete your comments. This is my
+            blog. I don’t have an obligation to publish your comments. The First
+            Amendment gives you the right to express your opinions on your blog,
+            not mine.
+          </p>
+
+          <br />
+          <p class="mt-6">
+            Specifically, I will delete your comments if you post something that
+            is, in my sole opinion, (a)snarky; (b) off-topic; (c) libelous,
+            defamatory, abusive, harassing, threatening, profane, pornographic,
+            offensive, false, misleading, or which otherwise violates or
+            encourages others to violate my sense of decorum and civility or any
+            law, including intellectual property laws; or (d) “spam,” i.e., an
+            attempt to advertise, solicit, or otherwise promote goods and
+            services. You may, however, post a link to your site or your most
+            recent blog post.
+          </p>
+
+          <br />
+          <p class="mt-6">
+            You grant SMART vCARD a license to post your comments. This license
+            is worldwide, irrevocable, non-exclusive, and royalty-free. You
+            grant me the right to store, use, transmit, display, publish,
+            reproduce, and distribute your comments in any format, including but
+            not limited to a blog, in a book, a video, or presentation.
+          </p>
+
+          <br />
+          <p class="mt-6">
+            In short, my goal is to host interesting conversations with caring,
+            honest, and respectful people. I believe this simple comments policy
+            will facilitate this.
+          </p>
+
+          <br />
+          <p class="mt-6">
+            CHANGE NOTICE: As with any of our administrative and legal notice
+            pages, the contents of this page can and will change over time.
+            Accordingly, this page could read differently as of your very next
+            visit. These changes are necessitated, and carried out by SMART
+            vCARD, in order to protect you and our SMART vCARD website. If this
+            page is important to you, you should check back frequently as no
+            other notice of changed content will be provided either before or
+            after the change takes effect.
+          </p>
+
+          <br />
+          <p class="mt-6">
+            COPYRIGHT WARNING: The legal notices and administrative pages on
+            this website, including this one, have been diligently drafted by an
+            attorney. We at SMART vCARD have paid to license the use of these
+            legal notices and administrative pages on SMART vCARD for your
+            protection and ours. This material may not be used in any way for
+            any reason and unauthorized use is policed via Copyscape to detect
+            violators.
+          </p>
+
+          <br />
+          <p class="mt-6">
+            QUESTIONS/COMMENTS/CONCERNS: If you have any questions about the
+            contents of this page, or simply wish to reach us for any other
+            reason, you may do so by following this link:
+            https://smartvcard.com/support
+          </p>
+        </div>
       </div>
     </div>
     <Footer />
