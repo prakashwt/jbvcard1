@@ -58,7 +58,7 @@
           duration-200
         "
         rel="noopener noreferrer"
-        >Terms & Condition</NuxtLink
+        >Terms & Conditions</NuxtLink
       >
     </p>
   </footer>
