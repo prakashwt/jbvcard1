@@ -3,13 +3,13 @@
 <h1 align="center">An Open-Source Digital Business Card Generator</h1>
 <!-- <h3 align="center">Your Website Can Host Your Digital Business Cards for FREE!</h3> -->
 <h3 align="center">Why Pay When Your Digital Business Cards Can Be Hosted on Your Website for Free!</h3>
-<p align="center">SMART vCARD helps you create interactive and responsive HTML-based digital business cards that can be hosted with your website.</p>
-<h3 align="center"><a href="https://SMART vCARD.vercel.app">Open App</a> | <a href="https://SMART vCARD.vercel.app">View demo</a></h3>
+<p align="center">SMARTvCARD helps you create interactive and responsive HTML-based digital business cards that can be hosted with your website.</p>
+<h3 align="center"><a href="https://SMARTvCARD.vercel.app">Open App</a> | <a href="https://SMARTvCARD.vercel.app">View demo</a></h3>
 
 ---
 
 <p align="center">
-<a href="https://www.gnu.org/licenses/agpl-3.0" alt="License: GPLv3"><img src="https://img.shields.io/badge/License-AGPL%20v3-blue"></a> <a href="https://github.com/vishnuraghavb/SMART vCARD/issues" alt="GitHub issues"><img src="https://img.shields.io/github/issues/vishnuraghavb/SMART vCARD?label=Issues"></a> <a href="https://liberapay.com/vishnuraghavb/donate" alt="Liberapay"><img src="https://img.shields.io/liberapay/patrons/vishnuraghavb.svg?logo=liberapay"></a> <a href="https://www.vishnuraghav.com/donate" alt="Donate"><img src="https://img.shields.io/badge/Donate%20to-Vishnu%20Raghav-brightgreen"></a></p>
+<a href="https://www.gnu.org/licenses/agpl-3.0" alt="License: GPLv3"><img src="https://img.shields.io/badge/License-AGPL%20v3-blue"></a> <a href="https://github.com/vishnuraghavb/SMARTvCARD/issues" alt="GitHub issues"><img src="https://img.shields.io/github/issues/vishnuraghavb/SMARTvCARD?label=Issues"></a> <a href="https://liberapay.com/vishnuraghavb/donate" alt="Liberapay"><img src="https://img.shields.io/liberapay/patrons/vishnuraghavb.svg?logo=liberapay"></a> <a href="https://www.vishnuraghav.com/donate" alt="Donate"><img src="https://img.shields.io/badge/Donate%20to-Vishnu%20Raghav-brightgreen"></a></p>
 
 ---
 
@@ -40,7 +40,7 @@
 
 ## Future
 
-Check out the [roadmap](https://github.com/vishnuraghavb/SMART vCARD/projects/1) to see the upcoming features of Digital Business Card Generator.
+Check out the [roadmap](https://github.com/vishnuraghavb/SMARTvCARD/projects/1) to see the upcoming features of Digital Business Card Generator.
 
 Your feedback and suggestions are very important. If you have an idea to improve Digital Business Card Generator, [do let me know](#having-issues-suggestions-and-feedback). I'm always open to ideas ;)
 
@@ -48,8 +48,8 @@ Your feedback and suggestions are very important. If you have an idea to improve
 
 You can,
 
-- [Create an issue here](https://github.com/vishnuraghavb/SMART vCARD/issues)
-- [Contact Support](http://t.me/SMART vCARD) (quicker replies and best for discussion)
+- [Create an issue here](https://github.com/vishnuraghavb/SMARTvCARD/issues)
+- [Contact Support](http://t.me/SMARTvCARD) (quicker replies and best for discussion)
 - Contact me at apps@vishnuraghav.com
 
 ## Assets
@@ -62,7 +62,7 @@ You can,
 ## License
 
 ```
-SMART vCARD - An Open-Source Digital Business Card Generator
+SMARTvCARD - An Open-Source Digital Business Card Generator
 Copyright (C) 2021  Vishnu Raghav B
 
 This program is free software: you can redistribute it and/or modify

@@ -22,7 +22,7 @@
           <meta v-if="!PreviewMode" name="robots" content="noindex, nofollow" />
           <meta
             name="author"
-            content="SMART vCARD - An Open-Source Digital Business Card Generator"
+            content="SMARTvCARD - An Open-Source Digital Business Card Generator"
           />
           <meta name="url" content="https://smartvcard.com" />
           <meta name="designer" content="Vishnu Raghav" />
@@ -321,7 +321,7 @@
               href="https://smartvcard.com"
               target="_blank"
               rel="noopener noreferrer"
-              >SMART vCARD</a
+              >SMARTvCARD</a
             >
           </footer>
         </body>

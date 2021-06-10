@@ -40,7 +40,7 @@
             md:leading-tight
           "
         >
-          Self-Hosting Guide
+          Terms and Conditions
         </h1>
         <h2 class="mt-8 text-lg md:text-xl w-full md:w-3/4 text-gray-200">
           Please follow the instructions as per your category to get your

@@ -9,7 +9,8 @@
             title="SMART vCARD - An Open-Source Digital Business Card Generator"
           ></div
         ></NuxtLink>
-        <a
+        <NuxtLink
+          to="/hosting-upgrade"
           class="
             font-extrabold
             tracking-wide
@@ -25,9 +26,7 @@
             transition-colors
             duration-200
           "
-          href="https://www.vishnuraghav.com/donate"
-          target="_blank"
-          >Donate</a
+          >Donate</NuxtLink
         >
       </div>
 

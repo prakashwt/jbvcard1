@@ -73,9 +73,10 @@
         <div
           class="logo w-24"
           v-html="require(`~/assets/icons/logo.svg?include`)"
-          title="SMART vCARD - An Open-Source Digital Business Card Generator"
+          title="SMARTvCARD - An Open-Source Digital Business Card Generator"
         ></div>
-        <a
+        <NuxtLink
+          to="/hosting-upgrade"
           class="
             font-extrabold
             tracking-wide
@@ -91,10 +92,7 @@
             transition-colors
             duration-200
           "
-          href="https://www.vishnuraghav.com/donate"
-          target="_blank"
-          rel="noreferrer"
-          >Donate</a
+          >Host with Us</NuxtLink
         >
       </div>
       <h1
@@ -110,7 +108,7 @@
         Why Pay When Your Website Can Host Your Digital Business Cards for Free!
       </h1>
       <p class="mt-8 text-lg md:text-xl w-full md:w-3/4 text-gray-200">
-        SMART vCARD helps you create beautiful, responsive HTML&#8209;based
+        SMARTvCARD helps you create beautiful, responsive HTML&#8209;based
         digital business cards that can be hosted on your website.
       </p>
       <ul class="mt-4 text-gray-400">
@@ -1270,7 +1268,7 @@ export default {
         EMAIL: email,
         URL: website,
         KEY: this.genInfo.fp,
-        UID: `SMART vCARD-${randomNumber}`,
+        UID: `SMARTvCARD-${randomNumber}`,
       }
     },
   },

@@ -10,7 +10,7 @@
         <br />
         Generator
       </p> -->
-      <p class="font-extrabold text-xl mt-2 leading-tight">SMART vCARD</p>
+      <p class="font-extrabold text-xl mt-2 leading-tight">SMARTvCARD</p>
     </div>
     <p class="mt-6 text-center text-gray-400">
       Another Software Solution by
@@ -31,7 +31,8 @@
       >
     </p>
     <p class="mt-1 mb-8 text-center text-xs text-gray-400">
-      <a
+      <NuxtLink
+        to="/privacy-policy"
         class="
           underline
           text-green-600
@@ -41,13 +42,12 @@
           transition-colors
           duration-200
         "
-        href="#"
-        target="_blank"
         rel="noopener noreferrer"
         >Privacy&nbsp;Policy
-      </a>
+      </NuxtLink>
       |
-      <a
+      <NuxtLink
+        to="/terms-and-conditions"
         class="
           underline
           text-green-600
@@ -57,10 +57,8 @@
           transition-colors
           duration-200
         "
-        href="#"
-        target="_blank"
         rel="noopener noreferrer"
-        >Terms & Conditions</a
+        >Terms & Condition</NuxtLink
       >
     </p>
   </footer>
