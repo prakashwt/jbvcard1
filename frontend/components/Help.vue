@@ -5,9 +5,8 @@
     </h2>
     <div class="stepC mt-6">
       <div class="donateBtn flex items-center mt-6">
-        <a
-          href="https://t.me/SMART vCARD"
-          target="_blank"
+        <NuxtLink
+          to="/contact-us"
           class="
             flex
             items-center
@@ -29,7 +28,7 @@
           rel="noreferrer"
         >
           Contact Support
-        </a>
+        </NuxtLink>
       </div>
     </div>
   </div>
