@@ -17,17 +17,17 @@ export default {
     ogType: 'website',
     ogImage: '/maskable_512.png',
     // ogUrl: false,
-    ogTitle: 'SMARTvCARD - An Open-Source Digital Business Card Generator',
+    ogTitle: 'SMARTvCARD - A product of GET BAER  ',
     ogDescription:
       'SMARTvCARD helps you create beautiful, responsive HTML-based digital business cards that can be hosted on your website.',
     ogSiteName: 'SMARTvCARD - An Open-Source Digital Business Card Generator',
     theme_color: '#111827',
-    author: 'Vishnu Raghav',
+    author: 'Zia Ullah',
     lang: 'en',
-    name: 'SMARTvCARD - An Open-Source Digital Business Card Generator'
+    name: 'SMARTvCARD - A product of GET BAER '
   },
   head: {
-    title: 'SMARTvCARD - An Open-Source Digital Business Card Generator',
+    title: 'SMARTvCARD - A product of GET BAER (ZIA PLACEHOLDER)',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -51,21 +51,21 @@ export default {
       }
     ],
     link: [
-      {
-        rel: 'icon',
-        type: 'image/x-icon',
-        href: '/favicon.ico?v=2'
-      },
-      {
-        rel: 'icon',
-        type: 'image/png',
-        href: '/favicon-16x16.png'
-      },
+      // {
+      //   rel: 'icon',
+      //   type: 'image/x-icon',
+      //   href: '/favicon.ico?v=2'
+      // },
       {
         rel: 'icon',
         type: 'image/png',
-        href: '/favicon-32x32.png'
+        href: '/favi.png'
       },
+      // {
+      //   rel: 'icon',
+      //   type: 'image/png',
+      //   href: '/favicon-32x32.png'
+      // },
       {
         rel: 'apple-touch-icon',
         sizes: '180x180',
@@ -80,7 +80,7 @@ export default {
     script: [{ src: '/qrcode.min.js' }]
   },
   manifest: {
-    name: 'SMARTvCARD - An Open-Source Digital Business Card Generator',
+    name: 'SMARTvCARD - A product of GET BAER',
     short_name: 'SMARTvCARD',
     start_url: '/',
     display: 'standalone',
