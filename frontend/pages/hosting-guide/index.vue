@@ -1,5 +1,9 @@
 <template>
-  <div class="bg-gray-900 mx-auto text-gray-100" style="max-width: 960px">
+  <div
+    ref="container"
+    class="container relative bg-gray-900 mx-auto text-gray-100"
+    style="max-width: 960px"
+  >
     <div class="px-4">
       <div class="flex items-start justify-between pt-8">
         <NuxtLink to="/">
@@ -29,7 +33,7 @@
           >Host with Us</NuxtLink
         >
       </div>
-      <div id="guide" class="max-w-screen-sm">
+      <div class="max-w-screen-sm">
         <h1 class="text-3xl md:text-5xl font-extrabold mt-24 md:leading-tight">
           <!--
             md:mt-48
@@ -237,99 +241,70 @@
             </li>
           </ul>
         </div>
+
         <div class="mt-16">
           <h3 class="font-extrabold text-2xl">I don't have a website</h3>
-          <p class="mt-6">
-            You can host your digital business card on our premium and secure
-            short URL , vCard.fyi, for less than $10/year
-            <br />
-            Your link will be branded to YOU! ie: https://vcard.fyi/yourname
-            <br />
-            Hosting includes unlimited changs to your business card. To update
-            and make changes, simply generate a new zip folder at
-            <a
-              class="
-                underline
-                font-extrabold
-                text-green-600
-                hover:text-green-500
-                focus:text-green-500
-                transition-colors
-                duration-200
-              "
-              href="#"
-              target="_blank"
-              rel="noopener noreferrer"
-              >SMARTvCARD</a
-            >, and send your file to
-            <a
-              class="
-                underline
-                font-extrabold
-                text-green-600
-                hover:text-green-500
-                focus:text-green-500
-                transition-colors
-                duration-200
-              "
-              href="https://#/contact-us"
-              target="_blank"
-              rel="noopener noreferrer"
-              >cutomer support</a
-            >
-            <br />
-            Branded links are offered on first come, first served basics. To
-            learn more Click on the button below.
-          </p>
-          <div class="stepC mt-6">
-            <div class="donateBtn flex items-center mt-6">
-              <NuxtLink
-                to="/hosting-upgrade"
+          <ul class="px-6 mt-6 list-outside list-disc">
+            <li>
+              You can host your digital business card on our premium and secure
+              short URL , vCard.fyi, for less than $10/year
+            </li>
+            <li>
+              Your link will be branded to YOU! ie: https://vcard.fyi/yourname
+            </li>
+            <li>
+              Hosting includes unlimited changs to your business card. To update
+              and make changes, simply generate a new zip folder at
+              <a
                 class="
-                  flex
-                  items-center
-                  text-lg
-                  leading-none
-                  p-5
-                  flex-shrink-0
-                  rounded
-                  cursor-pointer
-                  border-2 border-transparent
-                  bg-gray-700
-                  text-white
-                  hover:bg-gray-600
-                  focus:bg-gray-600
+                  underline
+                  font-extrabold
+                  text-green-600
+                  hover:text-green-500
+                  focus:text-green-500
                   transition-colors
                   duration-200
-                  font-extrabold
                 "
-                rel="noreferrer"
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                >SMARTvCARD</a
+              >, and send your file to
+              <NuxtLink
+                class="
+                  underline
+                  font-extrabold
+                  text-green-600
+                  hover:text-green-500
+                  focus:text-green-500
+                  transition-colors
+                  duration-200
+                "
+                to="/contact-us"
+                target="_blank"
+                rel="noopener noreferrer"
+                >cutomer support</NuxtLink
               >
-                Host My Business Card
-              </NuxtLink>
-            </div>
+            </li>
+            <li>
+              Branded links are offered on first come, first served basics. To
+              learn more Click on the link
 
-            <div class="mt-16">
-              <!-- <div class="px-6 mt-6 list-outside list-disc"> -->
-              <p>
-                If you need further assistance, please contact
-                <NuxtLink
-                  to="/contact-us"
-                  class="
-                    underline
-                    font-extrabold
-                    text-green-600
-                    hover:text-green-500
-                    focus:text-green-500
-                    transition-colors
-                    duration-200
-                  "
-                  >Customer Support</NuxtLink
-                >
-              </p>
-            </div>
-            <!-- </div> -->
-          </div>
+              <NuxtLink
+                to="/contact-us"
+                class="
+                  underline
+                  font-extrabold
+                  text-green-600
+                  hover:text-green-500
+                  focus:text-green-500
+                  transition-colors
+                  duration-200
+                "
+                >Customer Support</NuxtLink
+              >
+            </li>
+          </ul>
         </div>
       </div>
     </div>

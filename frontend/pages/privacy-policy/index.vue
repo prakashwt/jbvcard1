@@ -32,7 +32,7 @@
           >Host with Us</NuxtLink
         >
       </div>
-      <div id="guide" class="max-w-screen-sm">
+      <div class="max-w-screen-sm">
         <h1 class="text-3xl md:text-5xl font-extrabold mt-24 md:leading-tight">
           <!--
             md:mt-48
