@@ -1,0 +1,44 @@
+[
+  {
+    "name": "contact-us",
+    "path": "/contact-us",
+    "component": "/Volumes/geek/Projects/ProjectsDoing/VirtualCard/frontend/pages/contact-us/index.vue",
+    "chunkName": "pages/contact-us/index",
+    "_name": "_0ac74d4f"
+  },
+  {
+    "name": "hosting-guide",
+    "path": "/hosting-guide",
+    "component": "/Volumes/geek/Projects/ProjectsDoing/VirtualCard/frontend/pages/hosting-guide/index.vue",
+    "chunkName": "pages/hosting-guide/index",
+    "_name": "_03853b5b"
+  },
+  {
+    "name": "hosting-upgrade",
+    "path": "/hosting-upgrade",
+    "component": "/Volumes/geek/Projects/ProjectsDoing/VirtualCard/frontend/pages/hosting-upgrade/index.vue",
+    "chunkName": "pages/hosting-upgrade/index",
+    "_name": "_132f317b"
+  },
+  {
+    "name": "privacy-policy",
+    "path": "/privacy-policy",
+    "component": "/Volumes/geek/Projects/ProjectsDoing/VirtualCard/frontend/pages/privacy-policy/index.vue",
+    "chunkName": "pages/privacy-policy/index",
+    "_name": "_5debfd7b"
+  },
+  {
+    "name": "terms-and-conditions",
+    "path": "/terms-and-conditions",
+    "component": "/Volumes/geek/Projects/ProjectsDoing/VirtualCard/frontend/pages/terms-and-conditions/index.vue",
+    "chunkName": "pages/terms-and-conditions/index",
+    "_name": "_0c605e50"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Volumes/geek/Projects/ProjectsDoing/VirtualCard/frontend/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_ae8564fe"
+  }
+]
