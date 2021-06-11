@@ -9,7 +9,7 @@
           <div
             class="logo w-24"
             v-html="require(`~/assets/icons/logo.svg?include`)"
-            title="SMART vCARD - An Open-Source Digital Business Card Generator"
+            title="SMART vCARD - Online Business"
           ></div
         ></NuxtLink>
         <NuxtLink
