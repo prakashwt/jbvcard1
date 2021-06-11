@@ -95,6 +95,18 @@
           >Host with Us</NuxtLink
         >
       </div>
+      <h1
+        class="
+          text-3xl
+          md:text-5xl
+          font-extrabold
+          mt-24
+          md:mt-48
+          md:leading-tight
+        "
+      >
+        Free Digital Business Card Generator
+      </h1>
 
       <p class="mt-8 text-lg md:text-xl w-full md:w-3/4 text-gray-200">
         SMARTvCARD helps you create beautiful, responsive HTML&#8209;based

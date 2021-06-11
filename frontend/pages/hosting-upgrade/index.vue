@@ -37,7 +37,7 @@
           <h1
             class="text-3xl md:text-5xl font-extrabold mt-24 md:leading-tight"
           >
-            Terms and Conditions
+            Host with US
           </h1>
           <!--
             md:mt-48
