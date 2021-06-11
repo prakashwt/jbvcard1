@@ -6,7 +6,7 @@
           <div
             class="logo w-24"
             v-html="require(`~/assets/icons/logo.svg?include`)"
-            title="SMARTvCARD - An Open-Source Digital Business Card Generator"
+            title="SMARTvCARD - Another Software Solution By Get BAER"
           ></div
         ></NuxtLink>
         <NuxtLink
@@ -30,19 +30,13 @@
         >
       </div>
       <div id="guide" class="max-w-screen-sm">
-        <h1
-          class="
-            text-3xl
-            md:text-5xl
-            font-extrabold
-            mt-24
-            md:mt-48
-            md:leading-tight
-          "
-        >
+        <h1 class="text-3xl md:text-5xl font-extrabold mt-24 md:leading-tight">
           Terms and Conditions
         </h1>
 
+        <!--
+            md:mt-48
+            -->
         <p class="mt-16 border px-4 py-3 rounded border-gray-700">
           PLEASE READ THIS DOCUMENT CAREFULLY BEFORE ACCESSING OR USING OUR
           WEBSITE. BY ACCESSING OR USING OUR WEBSITE, YOU AGREE TO BE BOUND BY
@@ -731,6 +725,18 @@ import Footer from '@/components/Footer'
 export default {
   components: {
     Footer,
+  },
+  head: {
+    titleTemplate: 'Terms & Conditions   - %s',
+    meta: [
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Click here to read the terms & conditions for SMART vCARD.',
+      },
+    ],
   },
 }
 </script>

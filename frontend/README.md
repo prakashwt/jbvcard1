@@ -62,7 +62,7 @@ You can,
 ## License
 
 ```
-SMARTvCARD - An Open-Source Digital Business Card Generator
+SMARTvCARD - Another Software Solution By Get BAER
 Copyright (C) 2021  Vishnu Raghav B
 
 This program is free software: you can redistribute it and/or modify

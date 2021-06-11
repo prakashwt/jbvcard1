@@ -6,7 +6,7 @@
           <div
             class="logo w-24"
             v-html="require(`~/assets/icons/logo.svg?include`)"
-            title="SMARTvCARD - An Open-Source Digital Business Card Generator"
+            title="SMARTvCARD - Another Software Solution By Get BAER"
           ></div
         ></NuxtLink>
         <NuxtLink
@@ -30,16 +30,10 @@
         >
       </div>
       <div id="guide" class="max-w-screen-sm">
-        <h1
-          class="
-            text-3xl
-            md:text-5xl
-            font-extrabold
-            mt-24
+        <h1 class="text-3xl md:text-5xl font-extrabold mt-24 md:leading-tight">
+          <!--
             md:mt-48
-            md:leading-tight
-          "
-        >
+            -->
           Self-Hosting Guide
         </h1>
         <h2 class="mt-8 text-lg md:text-xl w-full md:w-3/4 text-gray-200">
@@ -348,6 +342,19 @@ import Footer from '@/components/Footer'
 export default {
   components: {
     Footer,
+  },
+  head: {
+    titleTemplate: 'Hosting Guide - %s',
+    meta: [
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      {
+        hid: 'description',
+        name: 'description',
+        content:
+          'Find instructions for how you can host your digital business card zip folder on your domain.',
+      },
+    ],
   },
 }
 </script>

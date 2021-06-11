@@ -73,7 +73,7 @@
         <div
           class="logo w-24"
           v-html="require(`~/assets/icons/logo.svg?include`)"
-          title="SMARTvCARD - An Open-Source Digital Business Card Generator"
+          title="SMARTvCARD - Another Software Solution By Get BAER"
         ></div>
         <NuxtLink
           to="/hosting-upgrade"
@@ -95,18 +95,7 @@
           >Host with Us</NuxtLink
         >
       </div>
-      <h1
-        class="
-          text-3xl
-          md:text-5xl
-          font-extrabold
-          mt-24
-          md:mt-48
-          md:leading-tight
-        "
-      >
-        Why Pay When Your Website Can Host Your Digital Business Cards for Free!
-      </h1>
+
       <p class="mt-8 text-lg md:text-xl w-full md:w-3/4 text-gray-200">
         SMARTvCARD helps you create beautiful, responsive HTML&#8209;based
         digital business cards that can be hosted on your website.
@@ -162,7 +151,7 @@
             transition-colors
             duration-200
           "
-          href="/demo"
+          href="https://vcard.fyi/getbaer/"
           target="_blank"
           >View demo</a
         >
@@ -846,7 +835,19 @@ export default {
     Vcard,
     draggable,
   },
-
+  head: {
+    titleTemplate: '%s - Digital Business Card Generator',
+    meta: [
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      {
+        hid: 'description',
+        name: 'description',
+        content:
+          'Create an html digital business card (.vcf file) that you can host for free on your domain.',
+      },
+    ],
+  },
   data() {
     return {
       downloadCheckList: [

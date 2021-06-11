@@ -3,7 +3,19 @@
     <div class="flex items-center">
       <div
         :style="{ backgroundColor: colors[name].color }"
-        class="w-12 h-12 rounded mr-3 relative cursor-pointer transition-colors duration-200 focus:outline-none focus:ring ring-gray-100"
+        class="
+          w-12
+          h-12
+          rounded
+          mr-3
+          relative
+          cursor-pointer
+          transition-colors
+          duration-200
+          focus:outline-none
+          focus:ring
+          ring-gray-100
+        "
         tabindex="0"
         @click.self="colors[name].openPalette = !colors[name].openPalette"
         @keydown.space.enter.esc.prevent="
@@ -63,7 +75,7 @@ export default {
 .hu-color-picker {
   box-shadow: none;
   &.light {
-    background: #2d3748;
+    background: #111827;
     .color-type {
       .name {
         background: #4a5568;

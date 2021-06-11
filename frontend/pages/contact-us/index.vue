@@ -33,6 +33,12 @@
         >
       </div>
 
+      <div id="guide" class="max-w-screen-sm">
+        <h1 class="text-3xl md:text-5xl font-extrabold mt-24 md:leading-tight">
+          Contact Customer Support
+        </h1>
+      </div>
+
       <iframe
         src="https://msgsndr.com/widget/form/yiRv9pgWMV3mVoyNx1Fd"
         style="border: none; width: 100%"
@@ -55,3 +61,9 @@ export default {
   },
 }
 </script>
+
+<style >
+#guide {
+  margin-left: 140px !important;
+}
+</style>

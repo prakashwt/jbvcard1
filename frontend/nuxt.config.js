@@ -20,14 +20,15 @@ export default {
     ogTitle: 'SMARTvCARD - A product of GET BAER  ',
     ogDescription:
       'SMARTvCARD helps you create beautiful, responsive HTML-based digital business cards that can be hosted on your website.',
-    ogSiteName: 'SMARTvCARD - An Open-Source Digital Business Card Generator',
+    ogSiteName: 'SMARTvCARD - Another Software Solution By Get BAER',
     theme_color: '#111827',
-    author: 'Zia Ullah',
+    author: 'Jeff BAER',
     lang: 'en',
     name: 'SMARTvCARD - A product of GET BAER '
   },
   head: {
-    title: 'SMARTvCARD - A product of GET BAER (ZIA PLACEHOLDER)',
+    // title: 'SMARTvCARD - A product of GET BAER (ZIA PLACEHOLDER)',
+    title: 'SMARTvCARD',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -35,7 +36,7 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'SMARTvCARD helps you create beautiful, responsive HTML-based digital business cards that can be hosted on your website.'
+          'Create an html digital business card (.vcf file) that you can host for free on your domain.'
       },
       {
         hid: 'msapplication-TileColor',

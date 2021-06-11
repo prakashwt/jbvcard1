@@ -39,7 +39,7 @@ export default {
 }
 html {
   font-family: 'Nunito', sans-serif;
-  background: #2d3748;
+  background: #111827;
   font-weight: 400;
   font-size: 16px;
   -ms-text-size-adjust: 100%;

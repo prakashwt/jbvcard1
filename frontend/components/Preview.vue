@@ -22,7 +22,7 @@
           <meta v-if="!PreviewMode" name="robots" content="noindex, nofollow" />
           <meta
             name="author"
-            content="SMARTvCARD - An Open-Source Digital Business Card Generator"
+            content="SMARTvCARD - Another Software Solution By Get BAER"
           />
           <meta name="url" content="https://smartvcard.com" />
           <meta name="designer" content="Vishnu Raghav" />
