@@ -277,7 +277,8 @@
               id="business-name"
               spellcheck="false"
               type="text"
-              v-model="genInfo.biz"
+              :value="genInfo.biz"
+              @input="genInfo.biz = $event.target.value"
               class="
                 mt-2
                 px-4
@@ -994,6 +995,12 @@ export default {
             placeholder: 'https://osm.org/go/location',
             value: null,
             label: 'Map location URL',
+          },
+          {
+            name: 'Review Us',
+            placeholder: 'https://example.com',
+            value: null,
+            label: 'Review Link',
           },
         ],
         secondaryActions: [

@@ -163,6 +163,10 @@
                 <p class="jobtitle text">
                   {{ genInfo.title }}
                 </p>
+                <br />
+                <p class="jobtitle text">
+                  {{ genInfo.biz }}
+                </p>
               </div>
             </div>
             <p class="desc text" v-if="genInfo.desc">
