@@ -41,7 +41,7 @@
 
       <iframe
         src="https://msgsndr.com/widget/form/yiRv9pgWMV3mVoyNx1Fd"
-        style="border: none; width: 100%"
+        style="border: none; width: 570px"
         scrolling="yes"
         id="yiRv9pgWMV3mVoyNx1Fd"
       ></iframe>
@@ -64,6 +64,6 @@ export default {
 
 <style >
 #guide {
-  margin-left: 140px !important;
+  margin-left: 20px !important;
 }
 </style>

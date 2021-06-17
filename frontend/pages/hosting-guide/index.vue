@@ -95,8 +95,8 @@
             <li>
               Just share the details with your IT team, let them create digital
               business cards for you using
-              <NuxtLink
-                to="/"
+              <a
+                href="https://smartvcard.com" target="_blank" 
                 class="
                   underline
                   font-extrabold
@@ -106,13 +106,10 @@
                   transition-colors
                   duration-200
                 "
-                >SMART vCARD</NuxtLink
-              >.
+                >SMART vCARD</a>.
             </li>
             <li>
-              If you got some business cards created by yourself, contact your
-              IT team to host it for you. Just send them the downloaded ZIP
-              files and share the link to this
+              If you have generated a business card for yourself, share it with your IT team. Just send them the downloaded ZIP files and share the link to this
               <a
                 class="
                   underline
@@ -123,7 +120,7 @@
                   transition-colors
                   duration-200
                 "
-                href="https://smartvcard.comhosting-guide"
+                href="/hosting-guide"
                 target="_blank"
                 >Self-Hosting Guide</a
               >.
@@ -150,7 +147,7 @@
         </div>
         <div class="mt-16">
           <p class="mt-4">
-            If you got any doubt setting up your digital business card on any of
+            If you have got doubt setting up your digital business card on any of
             these platforms, You can always
             <a
               class="
@@ -162,8 +159,7 @@
                 transition-colors
                 duration-200
               "
-              href="https://t.me/SMART vCARD"
-              target="_blank"
+              href="contact-us"
               rel="noopener noreferrer"
               >Contact Support</a
             >
@@ -265,7 +261,7 @@
                   transition-colors
                   duration-200
                 "
-                href="#"
+                href="/"
                 target="_blank"
                 rel="noopener noreferrer"
                 >SMART vCARD</a
@@ -283,7 +279,7 @@
                 to="/contact-us"
                 target="_blank"
                 rel="noopener noreferrer"
-                >cutomer support</NuxtLink
+                >Customer Support</NuxtLink
               >
             </li>
             <li>

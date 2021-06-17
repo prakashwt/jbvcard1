@@ -1,10 +1,10 @@
 <template>
   <footer class="h-30 mt-32 mx-4 flex flex-col">
     <div class="flex flex-col justify-center items-center">
-      <div
+     <a href="/"> <div
         class="ftr logo w-12"
         v-html="require(`~/assets/icons/footer_logo.svg?include`)"
-      ></div>
+      ></div></a>
       <!-- <p class="font-extrabold leading-tight">
         Digital&nbsp;Business&nbsp;Card
         <br />

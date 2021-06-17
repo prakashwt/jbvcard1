@@ -37,18 +37,43 @@
           <h1
             class="text-3xl md:text-5xl font-extrabold mt-24 md:leading-tight"
           >
-            Host with US
+            Host with Us
           </h1>
           <!--
             md:mt-48
             -->
 
-          <p class="mt-16 border px-4 py-3 rounded border-gray-700">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
-            velit voluptate dolor laboriosam beatae repudiandae repellendus
-            temporibus, modi tenetur dolores, fuga accusamus ullam. Quisquam
-            exercitationem id, molestias ipsum cupiditate nobis?
-          </p>
+   	<h2 class="mt-8 text-lg md:text-xl w-full md:w-3/4 text-gray-200">
+          View your business card live on our short URL (ie:vcard.fyi/yourname)
+        </h2>
+        <div class="mt-16">
+         
+          <ul class="px-6 mt-6 list-outside list-disc">
+            <li>
+              This is a free 14 day trial, no credit card is required.
+            </li>
+            <li>
+              Your vCard is hosted securly on Amazon servers.
+            </li>
+            <li>
+             After your free trial, annual hosting is only $9.97/year, cancel at anytime.
+            </li>
+            <li>
+             Optionally save 50% and get 10 years hosting for a one-time payment of only $47.
+            </li>
+            <li>
+             Make unlimited changes to your business card. Just send us an updated zip folder if your business card details change.
+            </li>
+          </ul>
+        </div>
+ <div class="mt-16">
+          <h3 class="font-extrabold text-2xl">
+           Send Us Your Zip Folder
+          </h3>
+         <p>
+           WEB FORM GOES HERE
+           </p>
+        </div>
 
           <!-- </div> -->
         </div>
