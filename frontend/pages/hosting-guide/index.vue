@@ -158,7 +158,7 @@
                 transition-colors
                 duration-200
               "
-              href="contact-us"
+              href="/contact-us"
               rel="noopener noreferrer"
               >Contact Support</a
             >
