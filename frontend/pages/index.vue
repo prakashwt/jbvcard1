@@ -73,7 +73,7 @@
         <div
           class="logo w-24"
           v-html="require(`~/assets/icons/logo.svg?include`)"
-          title="SMARTvCARD - Another Software Solution By Get BAER"
+          title="SMART vCARD - Another Software Solution By Get BAER"
         ></div>
         <NuxtLink
           to="/hosting-upgrade"
@@ -105,11 +105,11 @@
           md:leading-tight
         "
       >
-        Free Digital Business Card Generator :)
+        Free Digital Business Card Generator
       </h1>
 
       <p class="mt-8 text-lg md:text-xl w-full md:w-3/4 text-gray-200">
-        SMARTvCARD helps you create beautiful, responsive HTML&#8209;based
+        SMART vCARD helps you create beautiful, responsive HTML&#8209;based
         digital business cards that can be hosted on your website.
       </p>
       <ul class="mt-4 text-gray-400">
@@ -1288,7 +1288,7 @@ export default {
         EMAIL: email,
         URL: website,
         KEY: this.genInfo.fp,
-        UID: `SMARTvCARD-${randomNumber}`,
+        UID: `SMART vCARD-${randomNumber}`,
       }
     },
   },
@@ -1504,7 +1504,7 @@ export default {
           })
           let guide = new Blob(
             [
-              '<html><head><meta http-equiv="refresh" content="0; url=https://smartvcard.comhosting-guide" /></head></html>',
+              '<html><head><meta http-equiv="refresh" content="0; url=https://SMART vCARD.comhosting-guide" /></head></html>',
             ],
             {
               type: 'text/html',

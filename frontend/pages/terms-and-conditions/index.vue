@@ -6,7 +6,7 @@
           <div
             class="logo w-24"
             v-html="require(`~/assets/icons/logo.svg?include`)"
-            title="SMARTvCARD - Another Software Solution By Get BAER"
+            title="SMART vCARD - Another Software Solution By Get BAER"
           ></div
         ></NuxtLink>
         <NuxtLink
@@ -710,7 +710,7 @@
             QUESTIONS/COMMENTS/CONCERNS: If you have any questions about the
             contents of this page, or simply wish to reach us for any other
             reason, you may do so by following this link:
-            https://smartvcard.com/support
+            https://SMART vCARD.com/support
           </p>
         </div>
         <!-- </div> -->

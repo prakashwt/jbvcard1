@@ -1,5 +1,5 @@
 {
-  "title": "SMARTvCARD - A product of GET BAER ",
+  "title": "SMART vCARD - A product of GET BAER ",
   "meta": [
     {
       "hid": "charset",
@@ -18,12 +18,17 @@
     {
       "hid": "apple-mobile-web-app-title",
       "name": "apple-mobile-web-app-title",
-      "content": "SMARTvCARD - A product of GET BAER "
+      "content": "SMART vCARD - A product of GET BAER "
     },
     {
       "hid": "author",
       "name": "author",
       "content": "Jeff BAER"
+    },
+    {
+      "hid": "description",
+      "name": "description",
+      "content": "<p align=\"center\"><a href=\"https://SMART vCARD.com\"><img src=\"assets/images/GitHub.png\" width=\"100%\"></a></p>"
     },
     {
       "hid": "theme-color",
@@ -40,19 +45,19 @@
       "hid": "og:title",
       "name": "og:title",
       "property": "og:title",
-      "content": "SMARTvCARD - A product of GET BAER  "
+      "content": "SMART vCARD - A product of GET BAER  "
     },
     {
       "hid": "og:site_name",
       "name": "og:site_name",
       "property": "og:site_name",
-      "content": "SMARTvCARD - Another Software Solution By Get BAER"
+      "content": "SMART vCARD - Another Software Solution By Get BAER"
     },
     {
       "hid": "og:description",
       "name": "og:description",
       "property": "og:description",
-      "content": "SMARTvCARD helps you create beautiful, responsive HTML-based digital business cards that can be hosted on your website."
+      "content": "SMART vCARD helps you create beautiful, responsive HTML-based digital business cards that can be hosted on your website."
     }
   ],
   "link": [
@@ -68,7 +73,7 @@
     },
     {
       "rel": "manifest",
-      "href": "/_nuxt/manifest.f3e4c846.json",
+      "href": "/_nuxt/manifest.00698ffa.json",
       "hid": "manifest"
     }
   ],

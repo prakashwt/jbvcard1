@@ -12,9 +12,9 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 /* Plugins */
 
-import nuxt_plugin_plugin_52593467 from 'nuxt_plugin_plugin_52593467' // Source: ./components/plugin.js (mode: 'all')
-import nuxt_plugin_workbox_b1ed284e from 'nuxt_plugin_workbox_b1ed284e' // Source: ./workbox.js (mode: 'client')
-import nuxt_plugin_metaplugin_d06c6c28 from 'nuxt_plugin_metaplugin_d06c6c28' // Source: ./pwa/meta.plugin.js (mode: 'all')
+import nuxt_plugin_plugin_c1a5f298 from 'nuxt_plugin_plugin_c1a5f298' // Source: ./components/plugin.js (mode: 'all')
+import nuxt_plugin_workbox_71376b34 from 'nuxt_plugin_workbox_71376b34' // Source: ./workbox.js (mode: 'client')
+import nuxt_plugin_metaplugin_7fd0690e from 'nuxt_plugin_metaplugin_7fd0690e' // Source: ./pwa/meta.plugin.js (mode: 'all')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
@@ -60,7 +60,7 @@ async function createApp(ssrContext, config = {}) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"title":"SMARTvCARD","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"Create an html digital business card (.vcf file) that you can host for free on your domain."},{"hid":"msapplication-TileColor","name":"msapplication-TileColor","property":"msapplication-TileColor","content":"#111827"},{"hid":"msapplication-TileImage","name":"msapplication-TileImage","property":"msapplication-TileImage","content":"\u002Ffavi.png"}],"link":[{"rel":"icon","type":"image\u002Fpng","href":"\u002Ffavi.png"},{"rel":"apple-touch-icon","sizes":"180x180","href":"\u002Fapple-touch-icon.png"},{"rel":"mask-icon","color":"#111827","href":"\u002Fsafari-pinned-tab.svg"}],"script":[{"src":"\u002Fqrcode.min.js"}],"style":[]},
+    head: {"title":"SMART vCARD","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"Create an html digital business card (.vcf file) that you can host for free on your domain."},{"hid":"msapplication-TileColor","name":"msapplication-TileColor","property":"msapplication-TileColor","content":"#111827"},{"hid":"msapplication-TileImage","name":"msapplication-TileImage","property":"msapplication-TileImage","content":"\u002Ffavi.png"},{"hid":"charset","charset":"utf-8"},{"hid":"mobile-web-app-capable","name":"mobile-web-app-capable","content":"yes"},{"hid":"apple-mobile-web-app-title","name":"apple-mobile-web-app-title","content":"SMART vCARD - A product of GET BAER "},{"hid":"author","name":"author","content":"Jeff BAER"},{"hid":"theme-color","name":"theme-color","content":"#111827"},{"hid":"og:type","name":"og:type","property":"og:type","content":"website"},{"hid":"og:title","name":"og:title","property":"og:title","content":"SMART vCARD - A product of GET BAER  "},{"hid":"og:site_name","name":"og:site_name","property":"og:site_name","content":"SMART vCARD - Another Software Solution By Get BAER"},{"hid":"og:description","name":"og:description","property":"og:description","content":"SMART vCARD helps you create beautiful, responsive HTML-based digital business cards that can be hosted on your website."}],"link":[{"rel":"icon","type":"image\u002Fpng","href":"\u002Ffavi.png"},{"rel":"apple-touch-icon","sizes":"180x180","href":"\u002Fapple-touch-icon.png"},{"rel":"mask-icon","color":"#111827","href":"\u002Fsafari-pinned-tab.svg"},{"hid":"shortcut-icon","rel":"shortcut icon","href":"\u002Ffavi.png"},{"hid":"apple-touch-icon","rel":"apple-touch-icon","href":"\u002Ffavi.png"},{"rel":"manifest","href":"\u002F_nuxt\u002Fmanifest.c1127633.json","hid":"manifest"}],"script":[{"src":"\u002Fqrcode.min.js"}],"style":[],"htmlAttrs":{"lang":"en"}},
 
     router,
     nuxt: {
@@ -174,16 +174,16 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_plugin_52593467 === 'function') {
-    await nuxt_plugin_plugin_52593467(app.context, inject)
+  if (typeof nuxt_plugin_plugin_c1a5f298 === 'function') {
+    await nuxt_plugin_plugin_c1a5f298(app.context, inject)
   }
 
-  if (process.client && typeof nuxt_plugin_workbox_b1ed284e === 'function') {
-    await nuxt_plugin_workbox_b1ed284e(app.context, inject)
+  if (process.client && typeof nuxt_plugin_workbox_71376b34 === 'function') {
+    await nuxt_plugin_workbox_71376b34(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_metaplugin_d06c6c28 === 'function') {
-    await nuxt_plugin_metaplugin_d06c6c28(app.context, inject)
+  if (typeof nuxt_plugin_metaplugin_7fd0690e === 'function') {
+    await nuxt_plugin_metaplugin_7fd0690e(app.context, inject)
   }
 
   // Lock enablePreview in context

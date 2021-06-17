@@ -22,9 +22,9 @@
           <meta v-if="!PreviewMode" name="robots" content="noindex, nofollow" />
           <meta
             name="author"
-            content="SMARTvCARD - Another Software Solution By Get BAER"
+            content="SMART vCARD - Another Software Solution By Get BAER"
           />
-          <meta name="url" content="https://smartvcard.com" />
+          <meta name="url" content="https://SMART vCARD.com" />
           <meta name="designer" content="Vishnu Raghav" />
           <meta
             property="og:title"
@@ -322,10 +322,10 @@
             Created with
             <a
               class="text"
-              href="https://smartvcard.com"
+              href="https://SMART vCARD.com"
               target="_blank"
               rel="noopener noreferrer"
-              >SMARTvCARD</a
+              >SMART vCARD</a
             >
           </footer>
         </body>

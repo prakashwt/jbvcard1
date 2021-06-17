@@ -10,7 +10,7 @@
           <div
             class="logo w-24"
             v-html="require(`~/assets/icons/logo.svg?include`)"
-            title="SMARTvCARD - Another Software Solution By Get BAER"
+            title="SMART vCARD - Another Software Solution By Get BAER"
           ></div
         ></NuxtLink>
         <NuxtLink
@@ -106,7 +106,7 @@
                   transition-colors
                   duration-200
                 "
-                >SMARTvCARD</NuxtLink
+                >SMART vCARD</NuxtLink
               >.
             </li>
             <li>
@@ -123,7 +123,7 @@
                   transition-colors
                   duration-200
                 "
-                href="https://smartvcard.comhosting-guide"
+                href="https://SMART vCARD.comhosting-guide"
                 target="_blank"
                 >Self-Hosting Guide</a
               >.
@@ -162,7 +162,7 @@
                 transition-colors
                 duration-200
               "
-              href="https://t.me/SMARTvCARD"
+              href="https://t.me/SMART vCARD"
               target="_blank"
               rel="noopener noreferrer"
               >Contact Support</a
@@ -175,7 +175,7 @@
             How do I update my business card details?
           </h3>
           <p class="mt-6">
-            SMARTvCARD does not store any data online for you to retrieve it for
+            SMART vCARD does not store any data online for you to retrieve it for
             editing. So, every card has to be manually created from scratch.
           </p>
           <ul class="px-6 mt-6 list-outside list-disc">
@@ -192,7 +192,7 @@
                   transition-colors
                   duration-200
                 "
-                >SMARTvCARD</NuxtLink
+                >SMART vCARD</NuxtLink
               >
               and generate a new digital business card.
             </li>
@@ -224,7 +224,7 @@
                   transition-colors
                   duration-200
                 "
-                >SMARTvCARD</NuxtLink
+                >SMART vCARD</NuxtLink
               >
               and generate a digital business card.
             </li>
@@ -268,7 +268,7 @@
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
-                >SMARTvCARD</a
+                >SMART vCARD</a
               >, and send your file to
               <NuxtLink
                 class="

@@ -17,18 +17,18 @@ export default {
     ogType: 'website',
     ogImage: '/maskable_512.png',
     // ogUrl: false,
-    ogTitle: 'SMARTvCARD - A product of GET BAER  ',
+    ogTitle: 'SMART vCARD - A product of GET BAER  ',
     ogDescription:
-      'SMARTvCARD helps you create beautiful, responsive HTML-based digital business cards that can be hosted on your website.',
-    ogSiteName: 'SMARTvCARD - Another Software Solution By Get BAER',
+      'SMART vCARD helps you create beautiful, responsive HTML-based digital business cards that can be hosted on your website.',
+    ogSiteName: 'SMART vCARD - Another Software Solution By Get BAER',
     theme_color: '#111827',
     author: 'Jeff BAER',
     lang: 'en',
-    name: 'SMARTvCARD - A product of GET BAER '
+    name: 'SMART vCARD - A product of GET BAER '
   },
   head: {
-    // title: 'SMARTvCARD - A product of GET BAER (ZIA PLACEHOLDER)',
-    title: 'SMARTvCARD',
+    // title: 'SMART vCARD - A product of GET BAER (ZIA PLACEHOLDER)',
+    title: 'SMART vCARD',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -81,8 +81,8 @@ export default {
     script: [{ src: '/qrcode.min.js' }]
   },
   manifest: {
-    name: 'SMARTvCARD - A product of GET BAER',
-    short_name: 'SMARTvCARD',
+    name: 'SMART vCARD - A product of GET BAER',
+    short_name: 'SMART vCARD',
     start_url: '/',
     display: 'standalone',
     theme_color: '#111827',

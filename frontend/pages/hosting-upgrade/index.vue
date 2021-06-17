@@ -10,7 +10,7 @@
             <div
               class="logo w-24"
               v-html="require(`~/assets/icons/logo.svg?include`)"
-              title="SMARTvCARD - Another Software Solution By Get BAER"
+              title="SMART vCARD - Another Software Solution By Get BAER"
             ></div
           ></NuxtLink>
           <NuxtLink
