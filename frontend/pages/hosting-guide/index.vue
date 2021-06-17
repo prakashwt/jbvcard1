@@ -121,7 +121,6 @@
                   duration-200
                 "
                 href="/hosting-guide"
-                target="_blank"
                 >Self-Hosting Guide</a
               >.
             </li>
@@ -261,8 +260,7 @@
                   transition-colors
                   duration-200
                 "
-                href="/"
-                target="_blank"
+                href="/" 
                 rel="noopener noreferrer"
                 >SMART vCARD</a
               >, and send your file to
@@ -277,7 +275,7 @@
                   duration-200
                 "
                 to="/contact-us"
-                target="_blank"
+                
                 rel="noopener noreferrer"
                 >Customer Support</NuxtLink
               >
