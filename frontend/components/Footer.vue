@@ -69,8 +69,8 @@ export default {}
 
 <style >
 .ftr {
-  width: 200px;
-  height: 93px;
+  width: 280px;
+  height: 135px;
 }
 
 /* .footer_stick {

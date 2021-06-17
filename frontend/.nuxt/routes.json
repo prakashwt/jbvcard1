@@ -3,36 +3,42 @@
     "name": "contact-us",
     "path": "/contact-us",
     "component": "/Users/prakashkanumilli/Desktop/bizcardchanges1/jbvcard1/frontend/pages/contact-us/index.vue",
-    "chunkName": "pages/contact-us/index"
+    "chunkName": "pages/contact-us/index",
+    "_name": "_579b1f9c"
   },
   {
     "name": "hosting-guide",
     "path": "/hosting-guide",
     "component": "/Users/prakashkanumilli/Desktop/bizcardchanges1/jbvcard1/frontend/pages/hosting-guide/index.vue",
-    "chunkName": "pages/hosting-guide/index"
+    "chunkName": "pages/hosting-guide/index",
+    "_name": "_fd29ac24"
   },
   {
     "name": "hosting-upgrade",
     "path": "/hosting-upgrade",
     "component": "/Users/prakashkanumilli/Desktop/bizcardchanges1/jbvcard1/frontend/pages/hosting-upgrade/index.vue",
-    "chunkName": "pages/hosting-upgrade/index"
+    "chunkName": "pages/hosting-upgrade/index",
+    "_name": "_a1587164"
   },
   {
     "name": "privacy-policy",
     "path": "/privacy-policy",
     "component": "/Users/prakashkanumilli/Desktop/bizcardchanges1/jbvcard1/frontend/pages/privacy-policy/index.vue",
-    "chunkName": "pages/privacy-policy/index"
+    "chunkName": "pages/privacy-policy/index",
+    "_name": "_c6783d70"
   },
   {
     "name": "terms-and-conditions",
     "path": "/terms-and-conditions",
     "component": "/Users/prakashkanumilli/Desktop/bizcardchanges1/jbvcard1/frontend/pages/terms-and-conditions/index.vue",
-    "chunkName": "pages/terms-and-conditions/index"
+    "chunkName": "pages/terms-and-conditions/index",
+    "_name": "_03623236"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/Users/prakashkanumilli/Desktop/bizcardchanges1/jbvcard1/frontend/pages/index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_5f75e954"
   }
 ]

@@ -710,7 +710,7 @@
             QUESTIONS/COMMENTS/CONCERNS: If you have any questions about the
             contents of this page, or simply wish to reach us for any other
             reason, you may do so by following this link:
-            https://SMART vCARD.com/support
+            https://smartvcard.com/support
           </p>
         </div>
         <!-- </div> -->

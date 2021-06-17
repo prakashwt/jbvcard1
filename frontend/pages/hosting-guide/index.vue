@@ -123,7 +123,7 @@
                   transition-colors
                   duration-200
                 "
-                href="https://SMART vCARD.comhosting-guide"
+                href="https://smartvcard.comhosting-guide"
                 target="_blank"
                 >Self-Hosting Guide</a
               >.

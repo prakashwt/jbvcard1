@@ -28,7 +28,7 @@
     {
       "hid": "description",
       "name": "description",
-      "content": "<p align=\"center\"><a href=\"https://SMART vCARD.com\"><img src=\"assets/images/GitHub.png\" width=\"100%\"></a></p>"
+      "content": "<p align=\"center\"><a href=\"https://smartvcard.com\"><img src=\"assets/images/GitHub.png\" width=\"100%\"></a></p>"
     },
     {
       "hid": "theme-color",
@@ -73,7 +73,7 @@
     },
     {
       "rel": "manifest",
-      "href": "/_nuxt/manifest.00698ffa.json",
+      "href": "/_nuxt/manifest.c1127633.json",
       "hid": "manifest"
     }
   ],

@@ -110,16 +110,16 @@
 
       <p class="mt-8 text-lg md:text-xl w-full md:w-3/4 text-gray-200">
         SMART vCARD helps you create beautiful, responsive HTML&#8209;based
-        digital business cards that can be hosted on your website.
+        digital business cards that can be hosted on your domain or ours.
       </p>
       <ul class="mt-4 text-gray-400">
-        <li>-&ensp;No sign-up required</li>
+        <li>-&ensp;No sign-up required, free tool for all to use</li>
         <li>
-          -&ensp;Premium and secure hosting is available on our short url (i.e
-          vcard.fyi/yourname)
+          -&ensp;.vcf file included with every business card
         </li>
-        <li>-&ensp;No user tracking and data collection</li>
-        <li>-&ensp;Works offline</li>
+        <li>-&ensp;Share your contact details effortlessly by link or QR code</li>
+        <li>-&ensp;Host your card for free on your domain</li>
+         <li>-&ensp;Optionally host on our short URL (ie:vcard.fyi/yourname)</li>
       </ul>
       <div class="mt-4 flex flex-wrap items-center">
         <button
@@ -184,8 +184,8 @@
           "
           >Self-Hosting Guide</NuxtLink
         >
-        or use our
-        <span
+        or
+        <NuxtLink to="/hosting-upgrade" 
           class="
             cursor-pointer
             underline
@@ -196,7 +196,7 @@
             transition-colors
             duration-200
           "
-          >short URL</span
+          >Host with Us</NuxtLink
         >
       </p>
     </div>
@@ -580,8 +580,7 @@
               <p>{{ footerCredit ? 'Yes, for sure!' : 'No, thanks' }}</p>
             </div>
             <p class="mt-6 border p-4 rounded border-gray-700 text-gray-400">
-              Footer credit lets others to use this Service. You can support
-              this project by enabling the footer credit.
+              Please support this project and let others know about it by keeping the footer credit.
             </p>
           </div>
         </div>
@@ -627,7 +626,7 @@
           </div>
         </div>
         <div id="step-8" class="mt-16">
-          <h2 class="font-extrabold text-2xl">Colour customisation</h2>
+          <h2 class="font-extrabold text-2xl">Color Customization</h2>
           <div class="stepC">
             <Colour name="logoBg" label="Logo background" :colors="colors" />
             <Colour name="mainBg" label="Main background" :colors="colors" />
@@ -1504,7 +1503,7 @@ export default {
           })
           let guide = new Blob(
             [
-              '<html><head><meta http-equiv="refresh" content="0; url=https://SMART vCARD.comhosting-guide" /></head></html>',
+              '<html><head><meta http-equiv="refresh" content="0; url=https://smartvcard.com/hosting-guide" /></head></html>',
             ],
             {
               type: 'text/html',

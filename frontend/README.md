@@ -1,4 +1,4 @@
-<p align="center"><a href="https://SMART vCARD.com"><img src="assets/images/GitHub.png" width="100%"></a></p>
+<p align="center"><a href="https://smartvcard.com"><img src="assets/images/GitHub.png" width="100%"></a></p>
 
 <h1 align="center">Online Business</h1>
 <!-- <h3 align="center">Your Website Can Host Your Digital Business Cards for FREE!</h3> -->

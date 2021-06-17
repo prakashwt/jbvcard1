@@ -1,7 +1,7 @@
 {
   "name": "SMART vCARD - A product of GET BAER",
   "short_name": "SMART vCARD",
-  "description": "<p align=\"center\"><a href=\"https://SMART vCARD.com\"><img src=\"assets/images/GitHub.png\" width=\"100%\"></a></p>",
+  "description": "<p align=\"center\"><a href=\"https://smartvcard.com\"><img src=\"assets/images/GitHub.png\" width=\"100%\"></a></p>",
   "icons": [
     {
       "src": "/favi.png",

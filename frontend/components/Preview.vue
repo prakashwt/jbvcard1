@@ -24,7 +24,7 @@
             name="author"
             content="SMART vCARD - Another Software Solution By Get BAER"
           />
-          <meta name="url" content="https://SMART vCARD.com" />
+          <meta name="url" content="https://smartvcard.com" />
           <meta name="designer" content="Vishnu Raghav" />
           <meta
             property="og:title"
@@ -322,7 +322,7 @@
             Created with
             <a
               class="text"
-              href="https://SMART vCARD.com"
+              href="https://smartvcard.com"
               target="_blank"
               rel="noopener noreferrer"
               >SMART vCARD</a
@@ -440,7 +440,7 @@ export default {
     },
     sharingAlert() {
       this.showAlert(
-        'You are able to share your business card after completing the hosting process.\n\nCheck out the <a class="underline font-extrabold text-green-600 hover:text-green-500 transition-colors duration-200" href="/demo" target="_blank">demo</a> to test the functionality.'
+        'You are able to share your business card after completing the hosting process.\n\nCheck out the <a class="underline font-extrabold text-green-600 hover:text-green-500 transition-colors duration-200" href="https://vcard.fyi/getbaer/" target="_blank">demo</a> to test the functionality.'
       )
     },
     togglePlay(ref) {
