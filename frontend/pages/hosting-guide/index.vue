@@ -8,7 +8,7 @@
       <div class="flex items-start justify-between pt-8">
         <NuxtLink to="/">
           <div
-            class="logo w-24"
+            class="logo w-24" style="width: 8rem !important;" 
             v-html="require(`~/assets/icons/logo.svg?include`)"
             title="SMART vCARD - Another Software Solution By Get BAER"
           ></div
@@ -100,9 +100,9 @@
                 class="
                   underline
                   font-extrabold
-                  text-green-600
-                  hover:text-green-500
-                  focus:text-green-500
+                  text-green-500
+                  hover:text-green-600
+                  focus:text-green-600
                   transition-colors
                   duration-200
                 "
@@ -114,9 +114,9 @@
                 class="
                   underline
                   font-extrabold
-                  text-green-600
-                  hover:text-green-500
-                  focus:text-green-500
+                  text-green-500
+                  hover:text-green-600
+                  focus:text-green-600
                   transition-colors
                   duration-200
                 "
@@ -146,15 +146,15 @@
         </div>
         <div class="mt-16">
           <p class="mt-4">
-            If you have got doubt setting up your digital business card on any of
+            If you have doubt setting up your digital business card on any of
             these platforms, You can always
             <a
               class="
                 underline
-                text-green-600
+                text-green-500
                 font-extrabold
-                hover:text-green-500
-                focus:text-green-500
+                hover:text-green-600
+                focus:text-green-600
                 transition-colors
                 duration-200
               "
@@ -181,9 +181,9 @@
                 class="
                   underline
                   font-extrabold
-                  text-green-600
-                  hover:text-green-500
-                  focus:text-green-500
+                  text-green-500
+                  hover:text-green-600
+                  focus:text-green-600
                   transition-colors
                   duration-200
                 "
@@ -213,9 +213,9 @@
                 class="
                   underline
                   font-extrabold
-                  text-green-600
-                  hover:text-green-500
-                  focus:text-green-500
+                  text-green-500
+                  hover:text-green-600
+                  focus:text-green-600
                   transition-colors
                   duration-200
                 "
@@ -254,9 +254,9 @@
                 class="
                   underline
                   font-extrabold
-                  text-green-600
-                  hover:text-green-500
-                  focus:text-green-500
+                  text-green-500
+                  hover:text-green-600
+                  focus:text-green-600
                   transition-colors
                   duration-200
                 "
@@ -268,9 +268,9 @@
                 class="
                   underline
                   font-extrabold
-                  text-green-600
-                  hover:text-green-500
-                  focus:text-green-500
+                  text-green-500
+                  hover:text-green-600
+                  focus:text-green-600
                   transition-colors
                   duration-200
                 "
@@ -289,9 +289,9 @@
                 class="
                   underline
                   font-extrabold
-                  text-green-600
-                  hover:text-green-500
-                  focus:text-green-500
+                  text-green-500
+                  hover:text-green-600
+                  focus:text-green-600
                   transition-colors
                   duration-200
                 "

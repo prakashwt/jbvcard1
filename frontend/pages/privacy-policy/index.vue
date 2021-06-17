@@ -7,7 +7,7 @@
       <div class="flex items-start justify-between pt-8">
         <NuxtLink to="/">
           <div
-            class="logo w-24"
+            class="logo w-24" style="width: 8rem !important;" 
             v-html="require(`~/assets/icons/logo.svg?include`)"
             title="SMART vCARD - Another Software Solution By Get BAER"
           ></div

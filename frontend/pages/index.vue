@@ -70,7 +70,7 @@
 
     <div class="px-4">
       <div class="flex items-start justify-between pt-8">
-        <div
+        <div style="width: 8rem !important;" 
           class="logo w-24"
           v-html="require(`~/assets/icons/logo.svg?include`)"
           title="SMART vCARD - Another Software Solution By Get BAER"
@@ -134,10 +134,10 @@
             mt-2
             mr-2
             text-white
-            bg-green-600
+            bg-green-500
             rounded
-            hover:bg-green-500
-            focus:bg-green-500
+            hover:bg-green-600
+            focus:bg-green-600
             transition-colors
             duration-200
             focus:outline-none
@@ -176,9 +176,9 @@
             cursor-pointer
             underline
             font-extrabold
-            text-green-600
-            hover:text-green-500
-            focus:text-green-500
+            text-green-500
+            hover:text-green-600
+            focus:text-green-600
             transition-colors
             duration-200
           "
@@ -190,9 +190,9 @@
             cursor-pointer
             underline
             font-extrabold
-            text-green-600
-            hover:text-green-500
-            focus:text-green-500
+            text-green-500
+            hover:text-green-600
+            focus:text-green-600
             transition-colors
             duration-200
           "

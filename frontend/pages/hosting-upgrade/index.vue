@@ -8,7 +8,7 @@
         <div class="flex items-start justify-between pt-8">
           <NuxtLink to="/">
             <div
-              class="logo w-24"
+              class="logo w-24" style="width: 8rem !important;" 
               v-html="require(`~/assets/icons/logo.svg?include`)"
               title="SMART vCARD - Another Software Solution By Get BAER"
             ></div
@@ -47,8 +47,8 @@
           View your business card live on our short URL (ie:vcard.fyi/yourname)
         </h2>
         <div class="mt-16">
-         
-          <ul class="px-6 mt-6 list-outside list-disc">
+          <p class="mt-16 border px-4 py-3 rounded border-gray-700">
+          <ul class="px-6 mt-6 list-outside list-disc" style="margin-top:0 !important;">
             <li>
               This is a free 14 day trial, no credit card is required.
             </li>
@@ -65,14 +65,36 @@
              Make unlimited changes to your business card. Just send us an updated zip folder if your business card details change.
             </li>
           </ul>
+          </p>
         </div>
  <div class="mt-16">
           <h3 class="font-extrabold text-2xl">
            Send Us Your Zip Folder
           </h3>
-         <p>
-           WEB FORM GOES HERE
-           </p>
+              <div class="mt-4 flex flex-wrap items-center">
+        <button
+          class="
+            font-extrabold
+            leading-none
+            text-lg
+            tracking-wide
+            select-none
+            flex-shrink-0
+            p-5
+            mt-2
+            mr-2
+            text-white
+            bg-green-500
+            rounded
+            hover:bg-green-600
+            focus:bg-green-600
+            transition-colors
+            duration-200
+            focus:outline-none"
+        >
+          Free Trial
+        </button>
+      </div>
         </div>
 
           <!-- </div> -->

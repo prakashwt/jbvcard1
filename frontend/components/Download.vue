@@ -50,9 +50,9 @@
             cursor-pointer
             underline
             font-extrabold
-            text-green-600
-            hover:text-green-500
-            focus:text-green-500
+            text-green-500
+            hover:text-green-600
+            focus:text-green-600
             transition-colors
             duration-200
           "
@@ -61,18 +61,19 @@
         to get your digital business card online.
         <br /><br />
         Optionally host your vCard Zip folder on our
-        <span
+        <NuxtLink
+          to="/hosting-upgrade"
           class="
             cursor-pointer
             underline
             font-extrabold
-            text-green-600
-            hover:text-green-500
-            focus:text-green-500
+            text-green-500
+            hover:text-green-600
+            focus:text-green-600
             transition-colors
             duration-200
           "
-          >short url</span
+          >short url</NuxtLink
         >
         (i.e vcard.fyi/yourname)
       </p>

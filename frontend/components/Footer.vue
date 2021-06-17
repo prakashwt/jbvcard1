@@ -15,10 +15,10 @@
         <a
           class="
             underline
-            text-green-600
+            text-green-500
             font-extrabold
-            hover:text-green-500
-            focus:text-green-500
+            hover:text-green-600
+            focus:text-green-600
             transition-colors
             duration-200
           "
@@ -33,10 +33,10 @@
           to="/privacy-policy"
           class="
             underline
-            text-green-600
+            text-green-500
             font-extrabold
-            hover:text-green-500
-            focus:text-green-500
+            hover:text-green-600
+            focus:text-green-600
             transition-colors
             duration-200
           "
@@ -48,10 +48,10 @@
           to="/terms-and-conditions"
           class="
             underline
-            text-green-600
+            text-green-500
             font-extrabold
-            hover:text-green-500
-            focus:text-green-500
+            hover:text-green-600
+            focus:text-green-600
             transition-colors
             duration-200
           "

@@ -7,7 +7,7 @@
       <div class="flex items-start justify-between pt-8">
         <NuxtLink to="/">
           <div
-            class="logo w-24"
+            class="logo w-24" style="width: 8rem !important;" 
             v-html="require(`~/assets/icons/logo.svg?include`)"
             title="SMART vCARD - Online Business"
           ></div
@@ -41,7 +41,7 @@
 
       <iframe
         src="https://msgsndr.com/widget/form/yiRv9pgWMV3mVoyNx1Fd"
-        style="border: none; width: 570px"
+        style="border: none;width:100%;max-width:625px;"
         scrolling="yes"
         id="yiRv9pgWMV3mVoyNx1Fd"
       ></iframe>
