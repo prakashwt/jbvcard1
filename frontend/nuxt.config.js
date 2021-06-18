@@ -15,7 +15,7 @@ export default {
    */
   meta: {
     ogType: 'website',
-    ogImage: '~/assets/images/VCARD-SHARE-IMAGE.jpg',
+    ogImage: '/VCARD-SHARE-IMAGE.jpg',
     // ogUrl: false,
     ogTitle: 'SMARTvCARD - Free Digital Business Card Generator',
     ogDescription: 'Create beautiful, responsive HTML‑based digital business cards that can be hosted on your domain or ours',
