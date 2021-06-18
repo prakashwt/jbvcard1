@@ -15,12 +15,11 @@ export default {
    */
   meta: {
     ogType: 'website',
-    ogImage: '/maskable_512.png',
+    ogImage: '/assets/images/VCARD-SHARE-IMAGE.jpg',
     // ogUrl: false,
-    ogTitle: 'SMART vCARD - A product of GET BAER  ',
-    ogDescription:
-      'SMART vCARD helps you create beautiful, responsive HTML-based digital business cards that can be hosted on your website.',
-    ogSiteName: 'SMART vCARD - Another Software Solution By Get BAER',
+    ogTitle: 'SMARTvCARD - Free Digital Business Card Generator',
+    ogDescription: 'Create beautiful, responsive HTML‑based digital business cards that can be hosted on your domain or ours',
+    ogSiteName: 'SMARTvCARD - smartvcard.com',
     theme_color: '#111827',
     author: 'Jeff BAER',
     lang: 'en',
@@ -28,7 +27,7 @@ export default {
   },
   head: {
     // title: 'SMART vCARD - A product of GET BAER (ZIA PLACEHOLDER)',
-    title: 'SMART vCARD',
+    title: 'Free vCard & Digital Business Card Generator - SMART vCARD',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -36,7 +35,7 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'Create an html digital business card (.vcf file) that you can host for free on your domain.'
+          'Create beautiful, responsive HTML‑based digital business cards that can be hosted on your domain or ours'
       },
       {
         hid: 'msapplication-TileColor',
