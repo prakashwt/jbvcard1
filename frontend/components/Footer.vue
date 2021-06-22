@@ -58,6 +58,21 @@
           rel="noopener noreferrer"
           >Terms & Conditions</NuxtLink
         >
+         |
+        <NuxtLink
+          to="/contact-us"
+          class="
+            underline
+            text-green-500
+            font-extrabold
+            hover:text-green-600
+            focus:text-green-600
+            transition-colors
+            duration-200
+          "
+          rel="noopener noreferrer"
+          >Customer Support</NuxtLink
+        >
       </p>
     </div>
   </footer>

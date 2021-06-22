@@ -44,33 +44,37 @@
             -->
 
    	<h2 class="mt-8 text-lg md:text-xl w-full md:w-3/4 text-gray-200">
-          View your business card live on our short URL (ie:vcard.fyi/yourname)
+          Reserve your vcard.fyi name today!
         </h2>
         <div class="mt-16">
           <p class="mt-16 border px-4 py-3 rounded border-gray-700">
           <ul class="px-6 mt-6 list-outside list-disc" style="margin-top:0 !important;">
             <li>
-              This is a free 14 day trial, no credit card is required.
+              View your vCard live on the web (ie: vcard.fyi/yourname).
             </li>
             <li>
-              Your vCard is hosted securly on Amazon servers.
+              This is a 14 day free trial, no credit card is required.
             </li>
             <li>
-             After your free trial, annual hosting is only $9.97/year, cancel at anytime.
+            Your vCard is hosted securely on our domain at Amazon. 
             </li>
             <li>
-             Optionally save 50% and get 10 years hosting for a one-time payment of only $47.
+              After your free trial, annual hosting is $9.97/year, cancel at anytime.
             </li>
-            <li>
+               <li>
              Make unlimited changes to your business card. Just send us an updated zip folder if your business card details change.
             </li>
+            <li>
+             Enterprise packages and custom domain hosting available. For more information, <u><a href="contact-us">contact support</a></u>.
+            </li>
+         
           </ul>
           </p>
         </div>
  <div class="mt-16">
-          <h3 class="font-extrabold text-2xl">
+      <!--   <h3 class="font-extrabold text-2xl">
            Send Us Your Zip Folder
-          </h3>
+          </h3>-->
               <div class="mt-4 flex flex-wrap items-center">
         <button
           class="
@@ -92,7 +96,7 @@
             duration-200
             focus:outline-none"
         >
-          Free Trial
+          Reserve My Name
         </button>
       
       </div>
