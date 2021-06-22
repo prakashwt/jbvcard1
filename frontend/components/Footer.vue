@@ -60,7 +60,7 @@
         >
          |
         <NuxtLink
-          to="/contact-us"
+          to="/customer-support"
           class="
             underline
             text-green-500

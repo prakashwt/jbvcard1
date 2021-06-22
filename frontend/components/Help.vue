@@ -6,7 +6,7 @@
     <div class="stepC mt-6">
       <div class="donateBtn flex items-center mt-6">
         <NuxtLink
-          to="/contact-us"
+          to="/customer-support"
           class="
             flex
             items-center

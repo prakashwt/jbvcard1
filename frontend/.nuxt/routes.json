@@ -7,6 +7,13 @@
     "_name": "_1112ad3b"
   },
   {
+    "name": "customer-support",
+    "path": "/customer-support",
+    "component": "/Users/prakashkanumilli/Desktop/bizcardchanges2/jbvcard1/frontend/pages/customer-support/index.vue",
+    "chunkName": "pages/customer-support/index",
+    "_name": "_01f08ea0"
+  },
+  {
     "name": "hosting-guide",
     "path": "/hosting-guide",
     "component": "/Users/prakashkanumilli/Desktop/bizcardchanges2/jbvcard1/frontend/pages/hosting-guide/index.vue",

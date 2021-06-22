@@ -158,7 +158,7 @@
                 transition-colors
                 duration-200
               "
-              href="/contact-us"
+              href="/customer-support"
               rel="noopener noreferrer"
               >Contact Support</a
             >
@@ -274,7 +274,7 @@
                   transition-colors
                   duration-200
                 "
-                to="/contact-us"
+                to="/customer-support"
                 
                 rel="noopener noreferrer"
                 >Customer Support</NuxtLink
@@ -285,7 +285,7 @@
               learn more Click on the link
 
               <NuxtLink
-                to="/contact-us"
+                to="/customer-support"
                 class="
                   underline
                   font-extrabold

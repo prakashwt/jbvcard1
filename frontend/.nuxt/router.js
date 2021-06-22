@@ -5,6 +5,7 @@ import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
 const _1112ad3b = () => interopDefault(import('../pages/contact-us/index.vue' /* webpackChunkName: "pages/contact-us/index" */))
+const _01f08ea0 = () => interopDefault(import('../pages/customer-support/index.vue' /* webpackChunkName: "pages/customer-support/index" */))
 const _fe167822 = () => interopDefault(import('../pages/hosting-guide/index.vue' /* webpackChunkName: "pages/hosting-guide/index" */))
 const _1a4235e2 = () => interopDefault(import('../pages/hosting-upgrade/index.vue' /* webpackChunkName: "pages/hosting-upgrade/index" */))
 const _e324f132 = () => interopDefault(import('../pages/privacy-policy/index.vue' /* webpackChunkName: "pages/privacy-policy/index" */))
@@ -27,6 +28,10 @@ export const routerOptions = {
     path: "/contact-us",
     component: _1112ad3b,
     name: "contact-us"
+  }, {
+    path: "/customer-support",
+    component: _01f08ea0,
+    name: "customer-support"
   }, {
     path: "/hosting-guide",
     component: _fe167822,

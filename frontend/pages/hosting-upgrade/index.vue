@@ -44,7 +44,7 @@
             -->
 
    	<h2 class="mt-8 text-lg md:text-xl w-full md:w-3/4 text-gray-200">
-          Reserve your vcard.fyi name today!
+          Reserve your <b>vcard.fyi</b> name today!
         </h2>
         <div class="mt-16">
           <p class="mt-16 border px-4 py-3 rounded border-gray-700">
@@ -59,13 +59,26 @@
             Your vCard is hosted securely on our domain at Amazon. 
             </li>
             <li>
-              After your free trial, annual hosting is $9.97/year, cancel at anytime.
+              After your free trial, annual hosting is only $9.97/year, cancel at anytime.
             </li>
                <li>
              Make unlimited changes to your business card. Just send us an updated zip folder if your business card details change.
             </li>
             <li>
-             Enterprise packages and custom domain hosting available. For more information, <u><a href="contact-us">contact support</a></u>.
+             Enterprise packages and custom domain hosting available. For more information, <NuxtLink
+          to="/customer-support"
+          class="
+            underline
+            text-green-500
+            font-extrabold
+            hover:text-green-600
+            focus:text-green-600
+            transition-colors
+            duration-200
+          "
+          rel="noopener noreferrer"
+          >contact support</NuxtLink
+        >.
             </li>
          
           </ul>
