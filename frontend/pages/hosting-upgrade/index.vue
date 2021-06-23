@@ -50,13 +50,13 @@
           <p class="mt-16 border px-4 py-3 rounded border-gray-700">
           <ul class="px-6 mt-6 list-outside list-disc" style="margin-top:0 !important;">
             <li>
-              View your vCard live on the web (ie: vcard.fyi/yourname).
+              Host your digital business card on our domain (ie: vcard.fyi/yourname).
             </li>
             <li>
               This is a 14 day free trial, no credit card is required.
             </li>
             <li>
-            Your vCard is hosted securely on our domain at Amazon. 
+            Your vCard is hosted securely at Amazom Web Services. 
             </li>
             <li>
               After your free trial, annual hosting is only $9.97/year, cancel at anytime.
@@ -89,7 +89,7 @@
            Send Us Your Zip Folder
           </h3>-->
               <div class="mt-4 flex flex-wrap items-center">
-        <button
+        <a href="#cbfeb3cd8a"
           class="
             font-extrabold
             leading-none
@@ -110,7 +110,7 @@
             focus:outline-none"
         >
           Reserve My Name
-        </button>
+        </a>
       
       </div>
         </div>

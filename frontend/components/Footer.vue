@@ -71,7 +71,7 @@
             duration-200
           "
           rel="noopener noreferrer"
-          >Customer Support</NuxtLink
+          >Support</NuxtLink
         >
       </p>
     </div>
