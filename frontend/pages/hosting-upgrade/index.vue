@@ -46,7 +46,10 @@
    	<h2 class="mt-8 text-lg md:text-xl w-full md:w-3/4 text-gray-200">
           Reserve your <b>vcard.fyi</b> name today!
         </h2>
-        <div class="mt-16">
+   <div style="margin-top:30px;"> <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets4.lottiefiles.com/packages/lf20_dheshii6.json"  background="transparent"  speed="1"  style="width: 300px; height: 50px;"  loop  autoplay></lottie-player>
+   </div>
+    <div class="mt-16">
           <p class="mt-16 border px-4 py-3 rounded border-gray-700">
           <ul class="px-6 mt-6 list-outside list-disc" style="margin-top:0 !important;">
             <li>
