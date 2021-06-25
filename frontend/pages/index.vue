@@ -170,8 +170,8 @@
       </div>
       <p class="mt-6">
         Read the
-        <NuxtLink
-          to="/hosting-guide"
+        <a
+          href="/hosting-guide"
           class="
             cursor-pointer
             underline
@@ -182,10 +182,10 @@
             transition-colors
             duration-200
           "
-          >Self-Hosting Guide</NuxtLink
+          >Self-Hosting Guide</a
         >
         or
-        <NuxtLink to="/hosting-upgrade" 
+        <a href="/hosting-upgrade" 
           class="
             cursor-pointer
             underline
@@ -196,7 +196,7 @@
             transition-colors
             duration-200
           "
-          >Host with Us</NuxtLink
+          >Host with Us</a
         >
       </p>
     </div>

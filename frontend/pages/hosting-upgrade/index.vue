@@ -13,8 +13,8 @@
               title="SMART vCARD - Another Software Solution By Get BAER"
             ></div
           ></NuxtLink>
-          <NuxtLink
-            to="/hosting-upgrade"
+          <a
+            href="/hosting-upgrade"
             class="
               font-extrabold
               tracking-wide
@@ -30,7 +30,7 @@
               transition-colors
               duration-200
             "
-            >Host with Us</NuxtLink
+            >Host with Us</a
           >
         </div>
         <div class="max-w-screen-sm">
@@ -59,7 +59,7 @@
               This is a 14 day free trial, no credit card is required.
             </li>
             <li>
-            Your vCard is hosted securely at Amazom Web Services. 
+            Your vCard is hosted securely at Amazon Web Services. 
             </li>
             <li>
               After your free trial, annual hosting is only $9.97/year, cancel at anytime.
@@ -128,6 +128,7 @@
   </div>
 </template>
 <script>
+
 import Footer from '@/components/Footer'
 
 export default {

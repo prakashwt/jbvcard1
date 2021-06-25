@@ -12,8 +12,8 @@
             title="SMART vCARD - Another Software Solution By Get BAER"
           ></div
         ></NuxtLink>
-        <NuxtLink
-          to="/hosting-upgrade"
+        <a
+          href="/hosting-upgrade"
           class="
             font-extrabold
             tracking-wide
@@ -29,7 +29,7 @@
             transition-colors
             duration-200
           "
-          >Host with Us</NuxtLink
+          >Host with Us</a
         >
       </div>
       <div class="max-w-screen-sm">
